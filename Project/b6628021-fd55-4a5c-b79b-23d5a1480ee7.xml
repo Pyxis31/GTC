@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CpuRackNetworkData Type="NexCpuRackBuiltinIOMaster" SubType="" FormatVersion="1.00">
+  <NodeID>167ea067-73d8-409c-ac1d-79e97f8f9ca5</NodeID>
+  <ProfileKey>NX1P2-9024DT169</ProfileKey>
+  <InputPorts TypeID="0">
+    <Port ID="c4a8cd75-fae1-49c7-aefe-bedb12c17125" Name="Input Bit 00" />
+    <Port ID="98c12e27-f32d-49fe-a3a4-4544b25a1244" Name="Input Bit 01" />
+    <Port ID="58f661fd-70c9-4bad-89ef-7ddf9973268c" Name="Input Bit 02" />
+    <Port ID="fbddad3b-1345-40c6-ad62-3223c1dbf395" Name="Input Bit 03" />
+    <Port ID="83ee1fc8-7ebc-4cce-8720-85b72972b65d" Name="Input Bit 04" />
+    <Port ID="06326d2f-2471-4b06-ace7-0a7020523f16" Name="Input Bit 05" />
+    <Port ID="4a210305-4945-42ce-a426-a62a780cc0a6" Name="Input Bit 06" />
+    <Port ID="77c1c5ef-a860-4406-83a2-54612b1b61a3" Name="Input Bit 07" />
+    <Port ID="9b48dbb5-9074-4936-a07f-f26c211f5689" Name="Input Bit 08" />
+    <Port ID="09e1b763-e673-49b5-b157-ac25edb36997" Name="Input Bit 09" />
+    <Port ID="3a22b52d-e91d-4ec8-8f31-084a57d4bc91" Name="Input Bit 10" />
+    <Port ID="14bead5d-2417-41df-a06f-5aeba1e5555d" Name="Input Bit 11" />
+    <Port ID="08aedb73-f121-428d-afe2-8460608d7fe8" Name="Input Bit 12" />
+    <Port ID="20604ab9-8153-44f5-baec-909d3f207988" Name="Input Bit 13" />
+  </InputPorts>
+  <OutputPorts TypeID="9">
+    <Port ID="d33541d7-1da6-4a5b-8e65-aabfe656e651" Name="Output Bit 00" />
+    <Port ID="a40c8794-c423-428c-978b-7130bfe668f9" Name="Output Bit 01" />
+    <Port ID="cee37575-55c9-42be-bdaa-ce4116b1f333" Name="Output Bit 02" />
+    <Port ID="f10b1acd-9f9e-447a-ab33-53e4485349b7" Name="Output Bit 03" />
+    <Port ID="bd1185a2-f90b-4f14-9c92-1c46aeeef52f" Name="Output Bit 04" />
+    <Port ID="fbda3188-67e8-4c4d-a7ce-10b6b3f73554" Name="Output Bit 05" />
+    <Port ID="b7135d82-d3e9-452f-b4c2-1a8f7604728a" Name="Output Bit 06" />
+    <Port ID="b67f32b9-c194-40cb-89db-64df2f2d1094" Name="Output Bit 07" />
+    <Port ID="11f32652-b522-4c88-a98d-7d827b5331c6" Name="Output Bit 08" />
+    <Port ID="fd6d5195-59e9-470c-9261-473d8dc08080" Name="Output Bit 09" />
+  </OutputPorts>
+</CpuRackNetworkData>
