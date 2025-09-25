@@ -1,3 +1,10 @@
 [SLWD version=1.0]
 _EN=Variables
 +GN=VAR_GLOBAL	GVT=GlobalNamespaceGroup
+++D=BOOL	N=CapteurSalon	AT=BuiltInIO://cpu/#0/Input_Bit_00	G=VAR_GLOBAL
+++D=BOOL	N=CapteurCouloir	AT=BuiltInIO://cpu/#0/Input_Bit_01	G=VAR_GLOBAL
+++D=BOOL	N=Sirènes	AT=BuiltInIO://cpu/#0/Output_Bit_00	G=VAR_GLOBAL
+++D=BOOL	N=FlashIntérieur	AT=BuiltInIO://cpu/#0/Output_Bit_01	G=VAR_GLOBAL
+++D=BOOL	N=BootServeur	AT=BuiltInIO://cpu/#0/Output_Bit_02	G=VAR_GLOBAL
+++D=BOOL	N=CdeRepassage	AT=BuiltInIO://cpu/#0/Output_Bit_03	G=VAR_GLOBAL
+++D=BOOL	N=Minuit	AT=BuiltInIO://cpu/#0/Output_Bit_04	G=VAR_GLOBAL
