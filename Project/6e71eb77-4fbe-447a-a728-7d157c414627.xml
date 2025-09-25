@@ -8,3 +8,8 @@ _EN=Variables
 ++D=BOOL	N=BootServeur	AT=BuiltInIO://cpu/#0/Output_Bit_02	G=VAR_GLOBAL
 ++D=BOOL	N=CdeRepassage	AT=BuiltInIO://cpu/#0/Output_Bit_03	G=VAR_GLOBAL
 ++D=BOOL	N=Minuit	AT=BuiltInIO://cpu/#0/Output_Bit_04	G=VAR_GLOBAL
+++D=ARRAY[0..15] OF BOOL	N=BitsSauvegardés	AT=%H0	R=1	G=VAR_GLOBAL
+++D=ARRAY[0..119] OF INT	N=MotsNonSauvegardés	AT=%W0	G=VAR_GLOBAL
+++D=ARRAY[0..15] OF BOOL	N=BitsNonSauvegardés	AT=%W6	G=VAR_GLOBAL
+++D=ARRAY[0..15] OF BOOL	N=Entrées	AT=%0	G=VAR_GLOBAL
+++D=ARRAY[0..15] OF BOOL	N=Sorties	AT=%100	G=VAR_GLOBAL

@@ -9,7 +9,7 @@
       <Options />
     </NexCpuCjMemorySettingTable>
     <NexCpuCjMemorySettingTableCIOGeneration>
-      <CurrentValue>False</CurrentValue>
+      <CurrentValue>True</CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>False</DefaultValue>
@@ -23,7 +23,7 @@
       <Options />
     </NexCpuCjMemorySettingTableCIOAreaType>
     <NexCpuCjMemorySettingTableCIOMemorySize>
-      <CurrentValue>6144</CurrentValue>
+      <CurrentValue>110</CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>6144</DefaultValue>
@@ -37,7 +37,7 @@
       <Options />
     </NexCpuCjMemorySettingTableCIORetainType>
     <NexCpuCjMemorySettingTableWRGeneration>
-      <CurrentValue>False</CurrentValue>
+      <CurrentValue>True</CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>False</DefaultValue>
@@ -51,7 +51,7 @@
       <Options />
     </NexCpuCjMemorySettingTableWRAreaType>
     <NexCpuCjMemorySettingTableWRMemorySize>
-      <CurrentValue>512</CurrentValue>
+      <CurrentValue>120</CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>512</DefaultValue>
@@ -65,7 +65,7 @@
       <Options />
     </NexCpuCjMemorySettingTableWRRetainType>
     <NexCpuCjMemorySettingTableHRGeneration>
-      <CurrentValue>False</CurrentValue>
+      <CurrentValue>True</CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>False</DefaultValue>
@@ -79,7 +79,7 @@
       <Options />
     </NexCpuCjMemorySettingTableHRAreaType>
     <NexCpuCjMemorySettingTableHRMemorySize>
-      <CurrentValue>512</CurrentValue>
+      <CurrentValue>1</CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>512</DefaultValue>
