@@ -10,6 +10,4 @@ _EN=Variables
 ++D=BOOL	N=Minuit	AT=BuiltInIO://cpu/#0/Output_Bit_04	G=VAR_GLOBAL
 ++D=ARRAY[0..15] OF BOOL	N=BitsSauvegardés	AT=%H0	R=1	G=VAR_GLOBAL
 ++D=ARRAY[0..119] OF INT	N=MotsNonSauvegardés	AT=%W0	G=VAR_GLOBAL
-++D=ARRAY[0..15] OF BOOL	N=BitsNonSauvegardés	AT=%W6	G=VAR_GLOBAL
-++D=ARRAY[0..15] OF BOOL	N=Entrées	AT=%0	G=VAR_GLOBAL
-++D=ARRAY[0..15] OF BOOL	N=Sorties	AT=%100	G=VAR_GLOBAL
+++D=ARRAY[0..15] OF BOOL	N=BitsNonSauvegardés	AT=%W150	G=VAR_GLOBAL
