@@ -31,7 +31,7 @@
         <AccessInfos />
         <ChildEntities />
       </Entity>
-      <Entity type="Device" subtype="NJ501" id="4fa87172-caf5-4786-9608-23f144d93b15" name="CPU" version="0" dateCreated="09/18/2025 19:49:42" dateLastModified="09/19/2025 11:36:27" trackingId="c675391b-5dac-4a68-81e1-e34336d84cdf" hash="8954e710767a3e375832455fadbe7665" DHS="3662bb7854ac6fb972e8aedc1783263c" TH="912fe01df0f713572ea30cab70e5e17e">
+      <Entity type="Device" subtype="NJ501" id="4fa87172-caf5-4786-9608-23f144d93b15" name="CPU" version="0" dateCreated="09/18/2025 19:49:42" dateLastModified="09/19/2025 11:36:27" trackingId="c675391b-5dac-4a68-81e1-e34336d84cdf" hash="8954e710767a3e375832455fadbe7665" DHS="a2ac225b61c654d1c93ec4ff70a942d9" TH="db498e48d73119540c3cc0c138fac960">
         <AccessInfos />
         <ChildEntities>
           <Entity type="Watch" subtype="" id="555e6e04-9476-420c-be5c-dc2b6f2910c5" name="Watch" version="0" dateCreated="09/18/2025 19:49:42" trackingId="e7733163-8aae-48c4-ac5a-2f4860c8d606">
@@ -42,7 +42,7 @@
             <AccessInfos />
             <ChildEntities />
           </Entity>
-          <Entity type="NexEcatConfiguration" subtype="EcatConfigurationSubstance" id="862b1fc5-e81e-47cf-a73a-f217553c4c6c" name="EtherCAT" version="0" dateCreated="09/18/2025 19:49:42" dateLastModified="09/19/2025 11:36:27" trackingId="1e2c3b79-70ed-47fb-ab86-3eb0b4d791ea" SDName="EtherCAT Configuration" hash="51d83c6b9b71f8ad15379bff0621b287">
+          <Entity type="NexEcatConfiguration" subtype="EcatConfigurationSubstance" id="862b1fc5-e81e-47cf-a73a-f217553c4c6c" name="EtherCAT" version="0" dateCreated="09/18/2025 19:49:42" dateLastModified="09/19/2025 11:36:27" trackingId="1e2c3b79-70ed-47fb-ab86-3eb0b4d791ea" DN="EtherCAT Network Configuration and Unit Operation Settings" SDName="EtherCAT Configuration" hash="51d83c6b9b71f8ad15379bff0621b287">
             <AccessInfos />
             <ChildEntities />
           </Entity>
@@ -66,7 +66,7 @@
             <AccessInfos />
             <ChildEntities />
           </Entity>
-          <Entity type="SourceCompareId" subtype="Configuration" id="674457ab-e026-478f-8439-e8ceac0b2e20" name="Comparison ID for Configurations and Setup" version="0" dateCreated="09/18/2025 19:49:42" dateLastModified="09/26/2025 10:15:29" trackingId="1d333fe3-adc5-4d78-89ef-bee6fb974905" SDName="Comparison ID for Configurations and Setup" hash="2f2dc337d32367aa780bf989746768cc">
+          <Entity type="SourceCompareId" subtype="Configuration" id="674457ab-e026-478f-8439-e8ceac0b2e20" name="Comparison ID for Configurations and Setup" version="0" dateCreated="09/18/2025 19:49:42" dateLastModified="10/05/2025 11:55:52" trackingId="1d333fe3-adc5-4d78-89ef-bee6fb974905" SDName="Comparison ID for Configurations and Setup" hash="d39579ae0665f17e47539fea303d0e61">
             <AccessInfos />
             <ChildEntities />
           </Entity>
@@ -107,7 +107,7 @@
                 <AccessInfos />
                 <ChildEntities />
               </Entity>
-              <Entity type="NexControllerSetupEipSetting" subtype="" id="f2701ca2-c2ba-4024-a629-82b776fd7a91" name="Built-in EtherNet/IP Port Settings" version="0" dateCreated="09/18/2025 19:49:42" dateLastModified="09/19/2025 11:39:59" trackingId="19788e6d-5b35-48f4-92b2-85ad90fe75c9" DN="Built-in EtherNet/IP Port Settings" hash="b034c4cb82f9aa9ad279c3149aad7d27">
+              <Entity type="NexControllerSetupEipSetting" subtype="" id="f2701ca2-c2ba-4024-a629-82b776fd7a91" name="Built-in EtherNet/IP Port Settings" version="0" dateCreated="09/18/2025 19:49:42" dateLastModified="10/05/2025 11:55:52" trackingId="19788e6d-5b35-48f4-92b2-85ad90fe75c9" DN="Built-in EtherNet/IP Port Settings" hash="d842e77162d5072656f7cf54b9dd7f6f">
                 <AccessInfos />
                 <ChildEntities />
               </Entity>

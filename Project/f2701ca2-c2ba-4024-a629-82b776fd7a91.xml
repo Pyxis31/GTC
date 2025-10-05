@@ -20,7 +20,7 @@
       </Options>
     </NexCpuEipTcpIpIPAddressSettingSettingOptions>
     <NexCpuEipTcpIpIPAddressSettingIPAddress>
-      <CurrentValue>192.168.250.1</CurrentValue>
+      <CurrentValue>192.168.1.50</CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>192.168.250.1</DefaultValue>
@@ -4292,7 +4292,7 @@
   </NexCpuEipSNMPTrap>
   <NexCpuEipFINSSetting>
     <NexCpuEipFINSSettingFINSIPAddressSettingEIPNodeAddress>
-      <CurrentValue>1</CurrentValue>
+      <CurrentValue>50</CurrentValue>
       <IsEnabled>false</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>1</DefaultValue>
