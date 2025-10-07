@@ -3,6 +3,11 @@ _EN=Variables
 +GN=VAR	GVT=DefaultGroup
 ++D=_sDT	N=RTC	G=VAR
 ++D=BOOL	N=NOP	G=VAR
+++D=MQTT\MQTTClient	N=MQTT_Broker_connection	G=VAR
+++D=TON	N=MQTT_Delay	G=VAR
+++D=MQTT\WillCnfg	N=WillConfig	G=VAR
+++D=MQTT\Login	N=UserLogin	G=VAR
+++D=MQTT\ClientBuffer	N=BufferIn	G=VAR
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
 ++D=DATE_AND_TIME	N=_CurrentTime	Const=1	G=VAR_EXTERNAL
 ++D=ARRAY[0..119] OF INT	N=MotsNonSauvegardés	G=VAR_EXTERNAL

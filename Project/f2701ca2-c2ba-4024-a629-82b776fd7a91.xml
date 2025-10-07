@@ -3869,7 +3869,7 @@
   </NexCpuEipFTP>
   <NexCpuEipNTP>
     <NexCpuEipNTPUseSetting>
-      <CurrentValue>EnumElement1</CurrentValue>
+      <CurrentValue>EnumElement2</CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>EnumElement1</DefaultValue>
@@ -3880,7 +3880,7 @@
     </NexCpuEipNTPUseSetting>
     <NexCpuEipNTPPortSetting>
       <CurrentValue>123</CurrentValue>
-      <IsEnabled>false</IsEnabled>
+      <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>123</DefaultValue>
       <Options />
@@ -3894,7 +3894,7 @@
     </NexCpuEipNTPPortSettingValue2>
     <NexCpuEipNTPServerSpecify>
       <CurrentValue>EnumElement1</CurrentValue>
-      <IsEnabled>false</IsEnabled>
+      <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>EnumElement1</DefaultValue>
       <Options>
@@ -3903,8 +3903,8 @@
       </Options>
     </NexCpuEipNTPServerSpecify>
     <NexCpuEipNTPIPAddress>
-      <CurrentValue></CurrentValue>
-      <IsEnabled>false</IsEnabled>
+      <CurrentValue>192.168.1.100</CurrentValue>
+      <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
@@ -3925,7 +3925,7 @@
     </NexCpuEipNTPHostNameValue2>
     <NexCpuEipNTPTiming>
       <CurrentValue>EnumElement1</CurrentValue>
-      <IsEnabled>false</IsEnabled>
+      <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>EnumElement1</DefaultValue>
       <Options>
@@ -3934,8 +3934,8 @@
       </Options>
     </NexCpuEipNTPTiming>
     <NexCpuEipNTPSpecifiedTime>
-      <CurrentValue>00:00:00</CurrentValue>
-      <IsEnabled>false</IsEnabled>
+      <CurrentValue>12:00:00</CurrentValue>
+      <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>00:00:00</DefaultValue>
       <Options />
@@ -3956,7 +3956,7 @@
     </NexCpuEipNTPSpecifiedIntervalValue2>
     <NexCpuEipNTPTimeout>
       <CurrentValue>10</CurrentValue>
-      <IsEnabled>false</IsEnabled>
+      <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>10</DefaultValue>
       <Options />
