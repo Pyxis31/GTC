@@ -3869,7 +3869,7 @@
   </NexCpuEipFTP>
   <NexCpuEipNTP>
     <NexCpuEipNTPUseSetting>
-      <CurrentValue>EnumElement2</CurrentValue>
+      <CurrentValue>EnumElement1</CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>EnumElement1</DefaultValue>
@@ -3880,21 +3880,21 @@
     </NexCpuEipNTPUseSetting>
     <NexCpuEipNTPPortSetting>
       <CurrentValue>123</CurrentValue>
-      <IsEnabled>true</IsEnabled>
+      <IsEnabled>false</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>123</DefaultValue>
       <Options />
     </NexCpuEipNTPPortSetting>
     <NexCpuEipNTPPortSettingValue2>
       <CurrentValue>NexCpuEipEmptyUnit</CurrentValue>
-      <IsEnabled>true</IsEnabled>
+      <IsEnabled>false</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>NexCpuEipEmptyUnit</DefaultValue>
       <Options />
     </NexCpuEipNTPPortSettingValue2>
     <NexCpuEipNTPServerSpecify>
       <CurrentValue>EnumElement1</CurrentValue>
-      <IsEnabled>true</IsEnabled>
+      <IsEnabled>false</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>EnumElement1</DefaultValue>
       <Options>
@@ -3903,8 +3903,8 @@
       </Options>
     </NexCpuEipNTPServerSpecify>
     <NexCpuEipNTPIPAddress>
-      <CurrentValue>192.168.1.100</CurrentValue>
-      <IsEnabled>true</IsEnabled>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>false</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
@@ -3918,14 +3918,14 @@
     </NexCpuEipNTPHostName>
     <NexCpuEipNTPHostNameValue2>
       <CurrentValue>NexCpuEipEmptyUnit</CurrentValue>
-      <IsEnabled>true</IsEnabled>
+      <IsEnabled>false</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>NexCpuEipEmptyUnit</DefaultValue>
       <Options />
     </NexCpuEipNTPHostNameValue2>
     <NexCpuEipNTPTiming>
-      <CurrentValue>EnumElement1</CurrentValue>
-      <IsEnabled>true</IsEnabled>
+      <CurrentValue>EnumElement2</CurrentValue>
+      <IsEnabled>false</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>EnumElement1</DefaultValue>
       <Options>
@@ -3935,13 +3935,13 @@
     </NexCpuEipNTPTiming>
     <NexCpuEipNTPSpecifiedTime>
       <CurrentValue>12:00:00</CurrentValue>
-      <IsEnabled>true</IsEnabled>
+      <IsEnabled>false</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>00:00:00</DefaultValue>
       <Options />
     </NexCpuEipNTPSpecifiedTime>
     <NexCpuEipNTPSpecifiedInterval>
-      <CurrentValue>60</CurrentValue>
+      <CurrentValue>1</CurrentValue>
       <IsEnabled>false</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>60</DefaultValue>
@@ -3949,21 +3949,21 @@
     </NexCpuEipNTPSpecifiedInterval>
     <NexCpuEipNTPSpecifiedIntervalValue2>
       <CurrentValue>NexCpuEipNTPSpecifiedIntervalUnit</CurrentValue>
-      <IsEnabled>true</IsEnabled>
+      <IsEnabled>false</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>NexCpuEipNTPSpecifiedIntervalUnit</DefaultValue>
       <Options />
     </NexCpuEipNTPSpecifiedIntervalValue2>
     <NexCpuEipNTPTimeout>
       <CurrentValue>10</CurrentValue>
-      <IsEnabled>true</IsEnabled>
+      <IsEnabled>false</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>10</DefaultValue>
       <Options />
     </NexCpuEipNTPTimeout>
     <NexCpuEipNTPTimeoutValue2>
       <CurrentValue>NexCpuEipNTPTimeoutUnit</CurrentValue>
-      <IsEnabled>true</IsEnabled>
+      <IsEnabled>false</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>NexCpuEipNTPTimeoutUnit</DefaultValue>
       <Options />
