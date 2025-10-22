@@ -40,11 +40,17 @@ _EN=Variables
 ++D=BOOL	N=FB_MQTTClient_Busy	G=VAR
 ++D=UINT	N=TempPos	G=VAR
 ++D=STRING[10]	N=strTemp	G=VAR
-++D=STRING[10]	N=strHum	Ord=1	G=VAR	AOE=1
-++D=STRING[10]	N=strPres	Ord=2	G=VAR	AOE=1
-++D=STRING[10]	N=strVolt	Ord=3	G=VAR	AOE=1
-++D=STRING[10]	N=strLinkQ	Ord=4	G=VAR	AOE=1
-++D=STRING[10]	N=strBat	Ord=5	G=VAR	AOE=1
+++D=STRING[10]	N=strHum	G=VAR
+++D=STRING[10]	N=strPres	G=VAR
+++D=STRING[10]	N=strVolt	G=VAR
+++D=STRING[10]	N=strLinkQ	G=VAR
+++D=STRING[10]	N=strBat	G=VAR
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
 ++D=DATE_AND_TIME	N=_CurrentTime	Const=1	G=VAR_EXTERNAL
 ++D=ARRAY[0..119] OF INT	N=MotsNonSauvegardés	G=VAR_EXTERNAL
+++D=REAL	N=Temp_sensor1	G=VAR_EXTERNAL
+++D=REAL	N=Hum_sensor1	G=VAR_EXTERNAL
+++D=REAL	N=Press_sensor1	G=VAR_EXTERNAL
+++D=REAL	N=Volt_sensor1	G=VAR_EXTERNAL
+++D=REAL	N=Batt_sensor1	G=VAR_EXTERNAL
+++D=REAL	N=LinkQ_sensor1	G=VAR_EXTERNAL

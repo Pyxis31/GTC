@@ -11,3 +11,9 @@ _EN=Variables
 ++D=ARRAY[0..15] OF BOOL	N=BitsSauvegardés	AT=%H0	R=1	G=VAR_GLOBAL
 ++D=ARRAY[0..119] OF INT	N=MotsNonSauvegardés	AT=%W0	G=VAR_GLOBAL
 ++D=ARRAY[0..15] OF BOOL	N=BitsNonSauvegardés	AT=%W150	G=VAR_GLOBAL
+++D=REAL	N=Temp_sensor1	G=VAR_GLOBAL
+++D=REAL	N=Hum_sensor1	G=VAR_GLOBAL
+++D=REAL	N=Press_sensor1	G=VAR_GLOBAL
+++D=REAL	N=Volt_sensor1	G=VAR_GLOBAL
+++D=REAL	N=Batt_sensor1	G=VAR_GLOBAL
+++D=REAL	N=LinkQ_sensor1	G=VAR_GLOBAL
