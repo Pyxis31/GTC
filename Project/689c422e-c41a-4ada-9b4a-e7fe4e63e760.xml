@@ -45,6 +45,8 @@ _EN=Variables
 ++D=STRING[10]	N=strVolt	G=VAR
 ++D=STRING[10]	N=strLinkQ	G=VAR
 ++D=STRING[10]	N=strBat	G=VAR
+++D=BOOL	N=RTC_HMI_done	G=VAR
+++D=BOOL	N=NTPexe	G=VAR
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
 ++D=DATE_AND_TIME	N=_CurrentTime	Const=1	G=VAR_EXTERNAL
 ++D=ARRAY[0..119] OF INT	N=MotsNonSauvegardés	G=VAR_EXTERNAL

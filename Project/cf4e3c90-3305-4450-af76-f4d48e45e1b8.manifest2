@@ -4,7 +4,7 @@
   <Solution solutionName="GTC" id="cf4e3c90-3305-4450-af76-f4d48e45e1b8" trackingId="8436f9c3-06e8-4820-a42a-bb31357c4f9e" solutionSchemaVersion="2">
     <ApplicationFeatures>
       <ApplicationFeature name="V102Project" />
-      <ApplicationFeature name="SetUnit NX1P2-9024DT Ver. 1.69" />
+      <ApplicationFeature name="SetUnit NX1P2-9024DT1 Ver. 1.69" />
       <ApplicationFeature name="NexLibraryInternalUsed" />
       <ApplicationFeature name="TransferInfoAndBuildResultsEntitiesReduced" />
     </ApplicationFeatures>

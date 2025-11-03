@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CpuRackNetworkData Type="NexCpuRackBuiltinIOMaster" SubType="" FormatVersion="1.00">
   <NodeID>167ea067-73d8-409c-ac1d-79e97f8f9ca5</NodeID>
-  <ProfileKey>NX1P2-9024DT169</ProfileKey>
+  <ProfileKey>NX1P2-9024DT1169</ProfileKey>
   <InputPorts TypeID="0">
     <Port ID="c4a8cd75-fae1-49c7-aefe-bedb12c17125" Name="Input Bit 00" />
     <Port ID="98c12e27-f32d-49fe-a3a4-4544b25a1244" Name="Input Bit 01" />
