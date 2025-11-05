@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CpuRackNetworkData Type="NexOptionboardIONode" SubType="" FormatVersion="1.00">
+  <NodeID>b0c78d33-c292-4029-a401-160d5772716b</NodeID>
+  <ProfileKey>NX1W-ADB2110</ProfileKey>
+  <Slot>1</Slot>
+  <Ports>
+    <Port ID="4e22079b-ca2b-4b85-a10f-cea4c6906211" Name="Ch1 Analog Input Value" />
+    <Port ID="65b1f956-ab13-47c5-b285-186bc85751fb" Name="Ch2 Analog Input Value" />
+  </Ports>
+</CpuRackNetworkData>
