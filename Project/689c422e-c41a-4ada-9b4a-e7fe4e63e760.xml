@@ -4,7 +4,6 @@ _EN=Variables
 ++D=_sDT	N=RTC	G=VAR
 ++D=BOOL	N=NOP	G=VAR
 ++D=MQTT\MQTTClient	N=FB_MQTTClient	G=VAR
-++D=TON	N=MQTT_AtPowerON_Delay	G=VAR
 ++D=MQTT\WillCnfg	N=WillConfig	G=VAR
 ++D=MQTT\Login	N=UserLogin	G=VAR
 ++D=MQTT\ClientBuffer	N=BufferIn	G=VAR
@@ -16,7 +15,6 @@ _EN=Variables
 ++D=MQTT\MQTTPing	N=FB_MQTTPing	G=VAR
 ++D=UINT	N=ResponseTime	G=VAR
 ++D=BOOL	N=Busy	G=VAR
-++D=BOOL	N=MQTT_Connection_test	G=VAR
 ++D=_sSOCKET	N=FB_MQTTClient_SocketID	G=VAR
 ++D=BOOL	N=FB_MQTTClient_Error	G=VAR
 ++D=WORD	N=FB_MQTTClient_ErrorID	G=VAR
@@ -48,6 +46,16 @@ _EN=Variables
 ++D=BOOL	N=RTC_HMI_done	G=VAR
 ++D=BOOL	N=NTPexe	G=VAR
 ++D=INT	N=NTPexeError	G=VAR
+++D=BOOL	N=Reconnect	G=VAR
+++D=BOOL	N=Wait	G=VAR
+++D=BOOL	N=BrokerConnected	G=VAR
+++D=BOOL	N=InitConnection	G=VAR
+++D=BOOL	N=BrokerConnect	G=VAR
+++D=INT	N=State	G=VAR
+++D=UDINT	N=ReconnectCounter	G=VAR
+++D=TON	N=ReconnectionDelay	G=VAR
+++D=TON	N=WaitDelay	G=VAR
+++D=BOOL	N=BrokerAlive	G=VAR
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
 ++D=DATE_AND_TIME	N=_CurrentTime	Const=1	G=VAR_EXTERNAL
 ++D=ARRAY[0..119] OF INT	N=MotsNonSauvegardés	G=VAR_EXTERNAL
