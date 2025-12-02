@@ -17,5 +17,5 @@ _EN=Variables
 ++D=REAL	N=Volt_sensor1	G=VAR_GLOBAL
 ++D=REAL	N=Batt_sensor1	G=VAR_GLOBAL
 ++D=REAL	N=LinkQ_sensor1	G=VAR_GLOBAL
-++D=INT	N=TempExtérieur	AT=BuiltInIO://opt/#0/Ch1_Analog_Input_Value	G=VAR_GLOBAL
-++D=INT	N=TempIntérieur	AT=BuiltInIO://opt/#0/Ch2_Analog_Input_Value	G=VAR_GLOBAL
+++D=INT	N=ADB_ch1	AT=BuiltInIO://opt/#0/Ch1_Analog_Input_Value	G=VAR_GLOBAL
+++D=INT	N=ADB_ch2	AT=BuiltInIO://opt/#0/Ch2_Analog_Input_Value	G=VAR_GLOBAL
