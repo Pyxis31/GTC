@@ -56,8 +56,8 @@ _EN=Variables
 ++D=TON	N=ReconnectionDelay	G=VAR
 ++D=TON	N=WaitDelay	G=VAR
 ++D=BOOL	N=BrokerAlive	G=VAR
-++D=REAL	N=InternalTemp	G=VAR
-++D=REAL	N=ExternalTemp	G=VAR
+++D=REAL	N=InternalTemp	IV=20.5	G=VAR
+++D=REAL	N=ExternalTemp	IV=10.5	G=VAR
 ++D=JSON\JSONBuffer	N=JSON_NX1P2	G=VAR
 ++D=STRING[1986]	N=Txt_JSON_NX1P2	G=VAR
 ++D=MQTT\MQTTPublish	N=FB_MQTTPub_NX1P2	G=VAR
