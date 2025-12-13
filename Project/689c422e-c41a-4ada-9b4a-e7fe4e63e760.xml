@@ -56,8 +56,6 @@ _EN=Variables
 ++D=TON	N=ReconnectionDelay	G=VAR
 ++D=TON	N=WaitDelay	G=VAR
 ++D=BOOL	N=BrokerAlive	G=VAR
-++D=REAL	N=InternalTemp	IV=20.5	G=VAR
-++D=REAL	N=ExternalTemp	IV=10.5	G=VAR
 ++D=JSON\JSONBuffer	N=JSON_NX1P2	G=VAR
 ++D=STRING[1986]	N=Txt_JSON_NX1P2	G=VAR
 ++D=MQTT\MQTTPublish	N=FB_MQTTPub_NX1P2	G=VAR
@@ -67,6 +65,8 @@ _EN=Variables
 ++D=DWORD	N=FB_MQTTPub_NX1P2_ErrorIDEx	G=VAR
 ++D=BOOL	N=test_pub	G=VAR
 ++D=BOOL	N=test_sub	G=VAR
+++D=ScaleTemp	N=FB_InternalTemp	G=VAR
+++D=ScaleTemp	N=FB_ExternalTemp	G=VAR
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
 ++D=DATE_AND_TIME	N=_CurrentTime	Const=1	G=VAR_EXTERNAL
 ++D=ARRAY[0..119] OF INT	N=MotsNonSauvegardés	G=VAR_EXTERNAL
@@ -77,3 +77,15 @@ _EN=Variables
 ++D=REAL	N=Batt_sensor1	G=VAR_EXTERNAL
 ++D=REAL	N=LinkQ_sensor1	G=VAR_EXTERNAL
 ++D=BOOL	N=_EIP_EtnOnlineSta	Const=1	G=VAR_EXTERNAL
+++D=INT	N=ADB_ch1	G=VAR_EXTERNAL
+++D=REAL	N=InternalTempMIN	G=VAR_EXTERNAL
+++D=REAL	N=InternalTemp	G=VAR_EXTERNAL
+++D=REAL	N=ExternalTemp	G=VAR_EXTERNAL
+++D=REAL	N=InternalTempMAX	G=VAR_EXTERNAL
+++D=REAL	N=InternalTempAVR	G=VAR_EXTERNAL
+++D=REAL	N=InternalTempTREND	G=VAR_EXTERNAL
+++D=INT	N=ADB_ch2	G=VAR_EXTERNAL
+++D=REAL	N=ExternalTempMIN	G=VAR_EXTERNAL
+++D=REAL	N=ExternalTempMAX	G=VAR_EXTERNAL
+++D=REAL	N=ExternalTempAVR	G=VAR_EXTERNAL
+++D=REAL	N=ExternalTempTREND	G=VAR_EXTERNAL

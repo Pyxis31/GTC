@@ -9,11 +9,12 @@ _EN=Variables
 ++D=REAL	N=Mémoire	G=VAR
 ++D=ARRAY[0..95] OF REAL	N=Pile	G=VAR
 +GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
-++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT
-++D=UINT	N=EntréeAnalogique	Ord=1	G=VAR_INPUT
-++D=REAL	N=Température	Ord=2	G=VAR_OUTPUT
-++D=REAL	N=TempératureMIN	Ord=3	G=VAR_OUTPUT
-++D=REAL	N=TempératureMAX	Ord=4	G=VAR_OUTPUT
-++D=REAL	N=Moyenne	Ord=5	G=VAR_OUTPUT
-++D=REAL	N=Tendance	Ord=6	G=VAR_OUTPUT
+++D=BOOL	N=Enable	Ord=0	G=VAR_INPUT
+++D=BOOL	N=Sampling	Ord=1	G=VAR_OUTPUT
+++D=INT	N=EntréeAnalogique	Ord=2	G=VAR_INPUT
+++D=REAL	N=Température	Ord=3	G=VAR_OUTPUT
+++D=REAL	N=TempératureMIN	Ord=4	G=VAR_OUTPUT
+++D=REAL	N=TempératureMAX	Ord=5	G=VAR_OUTPUT
+++D=REAL	N=Moyenne	Ord=6	G=VAR_OUTPUT
+++D=REAL	N=Tendance	Ord=7	G=VAR_OUTPUT
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

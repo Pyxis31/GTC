@@ -1,5 +1,5 @@
 <StructuredTextModel xmlns="http://schemas.datacontract.org/2004/07/Omron.Cxap.Modules.StructuredText.Core" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><Text>(* Mise à l'échelle pour obtenir des degrés Celsius *)&#xD;
-Température:= (101.0*(UINT_TO_REAL(EntréeAnalogique)/1000.0))-23.0;&#xD;
+Température:= (101.0*(INT_TO_REAL(EntréeAnalogique)/4000.0))-23.0;&#xD;
 &#xD;
 (* Base de temps au quart d'heure *)&#xD;
 IF Get1minClk() AND NOT Front1 THEN&#xD;
@@ -52,4 +52,6 @@ END_IF;&#xD;
 IF Minute&lt;&gt;1 THEN&#xD;
 	Front2:= FALSE;&#xD;
 END_IF;&#xD;
+&#xD;
+Sampling:=Get1minClk();&#xD;
 </Text></StructuredTextModel>

@@ -19,3 +19,13 @@ _EN=Variables
 ++D=REAL	N=LinkQ_sensor1	G=VAR_GLOBAL
 ++D=INT	N=ADB_ch1	AT=BuiltInIO://opt/#0/Ch1_Analog_Input_Value	G=VAR_GLOBAL
 ++D=INT	N=ADB_ch2	AT=BuiltInIO://opt/#0/Ch2_Analog_Input_Value	G=VAR_GLOBAL
+++D=REAL	N=InternalTempMIN	G=VAR_GLOBAL
+++D=REAL	N=InternalTemp	IV=20.5	G=VAR_GLOBAL
+++D=REAL	N=ExternalTemp	IV=10.5	G=VAR_GLOBAL
+++D=REAL	N=InternalTempMAX	G=VAR_GLOBAL
+++D=REAL	N=InternalTempAVR	G=VAR_GLOBAL
+++D=REAL	N=InternalTempTREND	G=VAR_GLOBAL
+++D=REAL	N=ExternalTempMIN	G=VAR_GLOBAL
+++D=REAL	N=ExternalTempMAX	G=VAR_GLOBAL
+++D=REAL	N=ExternalTempAVR	G=VAR_GLOBAL
+++D=REAL	N=ExternalTempTREND	G=VAR_GLOBAL
