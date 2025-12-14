@@ -3,11 +3,12 @@ _EN=Variables
 +GN=VAR	GVT=DefaultGroup
 ++D=BOOL	N=Front1	G=VAR
 ++D=BOOL	N=Front2	G=VAR
-++D=UINT	N=index1	G=VAR
+++D=INT	N=index1	G=VAR
 ++D=UINT	N=index2	G=VAR
 ++D=UINT	N=Minute	G=VAR
 ++D=REAL	N=Mémoire	G=VAR
 ++D=ARRAY[0..95] OF REAL	N=Pile	G=VAR
+++D=UINT	N=Resolution	G=VAR
 +GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
 ++D=BOOL	N=Enable	Ord=0	G=VAR_INPUT
 ++D=BOOL	N=Sampling	Ord=1	G=VAR_OUTPUT
@@ -16,5 +17,5 @@ _EN=Variables
 ++D=REAL	N=TempératureMIN	Ord=4	G=VAR_OUTPUT
 ++D=REAL	N=TempératureMAX	Ord=5	G=VAR_OUTPUT
 ++D=REAL	N=Moyenne	Ord=6	G=VAR_OUTPUT
-++D=REAL	N=Tendance	Ord=7	G=VAR_OUTPUT
+++D=INT	N=Tendance	Ord=7	G=VAR_OUTPUT
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

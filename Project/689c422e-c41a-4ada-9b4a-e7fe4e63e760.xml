@@ -67,6 +67,7 @@ _EN=Variables
 ++D=BOOL	N=test_sub	G=VAR
 ++D=ScaleTemp	N=FB_InternalTemp	G=VAR
 ++D=ScaleTemp	N=FB_ExternalTemp	G=VAR
+++D=BOOL	N=test_ScaleTemp	G=VAR
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
 ++D=DATE_AND_TIME	N=_CurrentTime	Const=1	G=VAR_EXTERNAL
 ++D=ARRAY[0..119] OF INT	N=MotsNonSauvegardés	G=VAR_EXTERNAL
@@ -83,9 +84,9 @@ _EN=Variables
 ++D=REAL	N=ExternalTemp	G=VAR_EXTERNAL
 ++D=REAL	N=InternalTempMAX	G=VAR_EXTERNAL
 ++D=REAL	N=InternalTempAVR	G=VAR_EXTERNAL
-++D=REAL	N=InternalTempTREND	G=VAR_EXTERNAL
+++D=INT	N=InternalTempTREND	G=VAR_EXTERNAL
 ++D=INT	N=ADB_ch2	G=VAR_EXTERNAL
 ++D=REAL	N=ExternalTempMIN	G=VAR_EXTERNAL
 ++D=REAL	N=ExternalTempMAX	G=VAR_EXTERNAL
 ++D=REAL	N=ExternalTempAVR	G=VAR_EXTERNAL
-++D=REAL	N=ExternalTempTREND	G=VAR_EXTERNAL
+++D=INT	N=ExternalTempTREND	G=VAR_EXTERNAL
