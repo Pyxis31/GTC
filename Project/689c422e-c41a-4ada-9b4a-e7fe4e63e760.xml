@@ -1,7 +1,6 @@
 [SLWD version=1.0]
 _EN=Variables
 +GN=VAR	GVT=DefaultGroup
-++D=_sDT	N=RTC	G=VAR
 ++D=BOOL	N=NOP	G=VAR
 ++D=MQTT\MQTTClient	N=FB_MQTTClient	G=VAR
 ++D=MQTT\WillCnfg	N=WillConfig	G=VAR
@@ -68,9 +67,13 @@ _EN=Variables
 ++D=ScaleTemp	N=FB_InternalTemp	G=VAR
 ++D=ScaleTemp	N=FB_ExternalTemp	G=VAR
 ++D=BOOL	N=test_ScaleTemp	G=VAR
+++D=REAL	N=TempTest	G=VAR
+++D=DWORD	N=testDW	G=VAR
+++D=WORD	N=testWlow	G=VAR
+++D=WORD	N=testWhigh	G=VAR
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
 ++D=DATE_AND_TIME	N=_CurrentTime	Const=1	G=VAR_EXTERNAL
-++D=ARRAY[0..119] OF INT	N=MotsNonSauvegardés	G=VAR_EXTERNAL
+++D=ARRAY[0..119] OF WORD	N=W	G=VAR_EXTERNAL
 ++D=REAL	N=Temp_sensor1	G=VAR_EXTERNAL
 ++D=REAL	N=Hum_sensor1	G=VAR_EXTERNAL
 ++D=REAL	N=Press_sensor1	G=VAR_EXTERNAL
@@ -90,3 +93,6 @@ _EN=Variables
 ++D=REAL	N=ExternalTempMAX	G=VAR_EXTERNAL
 ++D=REAL	N=ExternalTempAVR	G=VAR_EXTERNAL
 ++D=INT	N=ExternalTempTREND	G=VAR_EXTERNAL
+++D=_sDT	N=RTC	G=VAR_EXTERNAL
+++D=INT	N=InternalTempTREND24h	G=VAR_EXTERNAL
+++D=INT	N=ExternalTempTREND24h	G=VAR_EXTERNAL
