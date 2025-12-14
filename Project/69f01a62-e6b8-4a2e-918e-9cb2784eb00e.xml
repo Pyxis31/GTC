@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <data>
-  <GeneralSettingsData TaskExecutionCondition="4000" ExecutionPriority="4" CycleTimeOverDetection="Warning" TimeOutValue="8000" VariableAccessTimeRatio="3">
+  <GeneralSettingsData TaskExecutionCondition="2000" ExecutionPriority="4" CycleTimeOverDetection="Warning" TimeOutValue="4000" VariableAccessTimeRatio="3">
     <ExecutionConditionVariable VariableName="" Condition="" Constant="" />
     <ExecutionConditionCJUnit ExternalInputUnit="">
       <ExecutionConditionInterruptionUnit UnitNumber="" InputContact="" EdgeDetection="" />
