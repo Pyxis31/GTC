@@ -9,7 +9,7 @@ _EN=Variables
 ++D=REAL	N=Mémoire	G=VAR
 ++D=ARRAY[0..96] OF REAL	N=Pile	G=VAR
 ++D=UINT	N=Resolution	G=VAR
-++D=REAL	N=MémoireTemp	G=VAR
+++D=REAL	N=MémTempérature	G=VAR
 +GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
 ++D=BOOL	N=Enable	Ord=0	G=VAR_INPUT
 ++D=INT	N=EntréeAnalogique	Ord=1	G=VAR_INPUT
