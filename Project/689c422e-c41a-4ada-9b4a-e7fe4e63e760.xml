@@ -75,7 +75,6 @@ _EN=Variables
 ++D=TON	N=TimeoutAck	G=VAR
 ++D=UINT	N=RTC_error	G=VAR
 ++D=TON	N=SystemMonitoringDelay	G=VAR
-++D=BOOL	N=AlarmActivationMemory	G=VAR
 ++D=TON	N=AlarmActivationDelay	G=VAR
 ++D=TON	N=AlarmAutoReset	G=VAR
 ++D=TON	N=ServerStartingTimeCmd	G=VAR
@@ -106,7 +105,6 @@ _EN=Variables
 ++D=_sDT	N=RTC	G=VAR_EXTERNAL
 ++D=INT	N=InternalTempTREND24h	G=VAR_EXTERNAL
 ++D=INT	N=ExternalTempTREND24h	G=VAR_EXTERNAL
-++D=BOOL	N=Minuit	G=VAR_EXTERNAL
 ++D=ARRAY[0..15] OF BOOL	N=W_bit	G=VAR_EXTERNAL
 ++D=ARRAY[0..15] OF BOOL	N=H_bit	G=VAR_EXTERNAL
 ++D=BOOL	N=CapteurSalon	G=VAR_EXTERNAL
@@ -115,3 +113,4 @@ _EN=Variables
 ++D=BOOL	N=Sirènes	G=VAR_EXTERNAL
 ++D=BOOL	N=BootServeur	G=VAR_EXTERNAL
 ++D=BOOL	N=CdeRepassage	G=VAR_EXTERNAL
+++D=BOOL	N=AlarmActivationMemory	G=VAR_EXTERNAL

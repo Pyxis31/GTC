@@ -7,7 +7,6 @@ _EN=Variables
 ++D=BOOL	N=FlashIntérieur	AT=BuiltInIO://cpu/#0/Output_Bit_01	G=VAR_GLOBAL
 ++D=BOOL	N=BootServeur	AT=BuiltInIO://cpu/#0/Output_Bit_02	G=VAR_GLOBAL
 ++D=BOOL	N=CdeRepassage	AT=BuiltInIO://cpu/#0/Output_Bit_03	G=VAR_GLOBAL
-++D=BOOL	N=Minuit	AT=BuiltInIO://cpu/#0/Output_Bit_04	G=VAR_GLOBAL
 ++D=ARRAY[0..15] OF BOOL	N=H_bit	AT=%H0	R=1	G=VAR_GLOBAL
 ++D=ARRAY[0..49] OF WORD	N=W	AT=%W0	G=VAR_GLOBAL
 ++D=ARRAY[0..15] OF BOOL	N=W_bit	AT=%W0	G=VAR_GLOBAL
@@ -32,3 +31,4 @@ _EN=Variables
 ++D=_sDT	N=RTC	G=VAR_GLOBAL
 ++D=INT	N=InternalTempTREND24h	G=VAR_GLOBAL
 ++D=INT	N=ExternalTempTREND24h	G=VAR_GLOBAL
+++D=BOOL	N=AlarmActivationMemory	G=VAR_GLOBAL
