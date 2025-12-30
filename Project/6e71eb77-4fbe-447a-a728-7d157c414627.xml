@@ -31,4 +31,4 @@ _EN=Variables
 ++D=_sDT	N=RTC	G=VAR_GLOBAL
 ++D=INT	N=InternalTempTREND24h	G=VAR_GLOBAL
 ++D=INT	N=ExternalTempTREND24h	G=VAR_GLOBAL
-++D=BOOL	N=AlarmActivationMemory	G=VAR_GLOBAL
+++D=BOOL	N=AlertMemory	G=VAR_GLOBAL
