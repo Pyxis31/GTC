@@ -95,8 +95,8 @@ _EN=Variables
 ++D=STRING[8]	N=strTest	G=VAR
 ++D=BOOL	N=AlarmOnOff	G=VAR
 ++D=UINT	N=NTP_error	G=VAR
-++D=BOOL	N=test10	Ord=1	G=VAR	AOE=1
-++D=STRING[20]	N=strResult	Ord=2	G=VAR	AOE=1
+++D=BOOL	N=test10	G=VAR
+++D=STRING[20]	N=strResult	G=VAR
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
 ++D=DATE_AND_TIME	N=_CurrentTime	Const=1	G=VAR_EXTERNAL
 ++D=ARRAY[0..49] OF WORD	N=W	G=VAR_EXTERNAL
