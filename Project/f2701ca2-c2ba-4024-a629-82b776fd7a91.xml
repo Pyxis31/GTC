@@ -41,7 +41,7 @@
       <Options />
     </NexCpuEipTcpIpDefaultGateway>
     <NexCpuEipTcpIpDNSUseSetting>
-      <CurrentValue>EnumElement1</CurrentValue>
+      <CurrentValue>EnumElement2</CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>EnumElement1</DefaultValue>
@@ -51,22 +51,22 @@
       </Options>
     </NexCpuEipTcpIpDNSUseSetting>
     <NexCpuEipTcpIpDNSPriorityServer>
-      <CurrentValue></CurrentValue>
-      <IsEnabled>false</IsEnabled>
+      <CurrentValue>81.253.149.2</CurrentValue>
+      <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </NexCpuEipTcpIpDNSPriorityServer>
     <NexCpuEipTcpIpDNSSecondaryServer>
-      <CurrentValue></CurrentValue>
-      <IsEnabled>false</IsEnabled>
+      <CurrentValue>80.10.246.132</CurrentValue>
+      <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </NexCpuEipTcpIpDNSSecondaryServer>
     <NexCpuEipTcpIpDNSDomainName>
       <CurrentValue></CurrentValue>
-      <IsEnabled>false</IsEnabled>
+      <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
@@ -3903,14 +3903,14 @@
       </Options>
     </NexCpuEipNTPServerSpecify>
     <NexCpuEipNTPIPAddress>
-      <CurrentValue>82.65.248.56</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>false</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </NexCpuEipNTPIPAddress>
     <NexCpuEipNTPHostName>
-      <CurrentValue>0.fr.pool.ntp.org</CurrentValue>
+      <CurrentValue>fr.pool.ntp.org</CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
@@ -3941,7 +3941,7 @@
       <Options />
     </NexCpuEipNTPSpecifiedTime>
     <NexCpuEipNTPSpecifiedInterval>
-      <CurrentValue>1</CurrentValue>
+      <CurrentValue>60</CurrentValue>
       <IsEnabled>false</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>60</DefaultValue>

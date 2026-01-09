@@ -97,6 +97,7 @@ _EN=Variables
 ++D=UINT	N=NTP_error	G=VAR
 ++D=BOOL	N=test10	G=VAR
 ++D=STRING[20]	N=strResult	G=VAR
+++D=BOOL	N=testNTP	G=VAR
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
 ++D=DATE_AND_TIME	N=_CurrentTime	Const=1	G=VAR_EXTERNAL
 ++D=ARRAY[0..49] OF WORD	N=W	G=VAR_EXTERNAL
