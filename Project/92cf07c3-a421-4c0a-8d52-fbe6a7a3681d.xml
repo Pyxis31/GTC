@@ -114,66 +114,145 @@
         <ReferredLibrary>
           <data>
             <LibraryModel>
-              <Name>JSONEncoding v0.56</Name>
+              <Name>JSONEncoding</Name>
               <NameSpace></NameSpace>
-              <Version>0.0.56</Version>
+              <Version>0.0.57</Version>
               <Revision>1</Revision>
-              <LibraryId>918d7b21-6d6c-4cc2-8a12-9c406c386cc2</LibraryId>
+              <LibraryId>29c3c57d-4d26-4adb-a5fb-193d24719ab3</LibraryId>
               <Author>SGG</Author>
               <Company>OMRON ATCE</Company>
               <DateCreated>2016-09-19T14:42:18.866015+02:00</DateCreated>
-              <DateModified>2019-03-08T11:53:54.0526439+01:00</DateModified>
-              <Comment>Uses as output Byte Array</Comment>
+              <DateModified>2020-04-20T14:27:56.3308353+02:00</DateModified>
+              <Comment></Comment>
               <Password></Password>
               <AttachedFiles />
               <AttachedFilesRelativePaths />
               <PublicPartsNames>
-                <PublicName>JSON\JSON_REAL</PublicName>
-                <PublicName>JSON\JSON_LREAL</PublicName>
                 <PublicName>JSON\JSON_INT</PublicName>
                 <PublicName>JSON\JSON_DINT</PublicName>
+                <PublicName>JSON\JSON_LINT</PublicName>
                 <PublicName>JSON\JSON_UINT</PublicName>
-                <PublicName>JSON\JSON_ULINT</PublicName>
                 <PublicName>JSON\JSON_UDINT</PublicName>
+                <PublicName>JSON\JSON_ULINT</PublicName>
                 <PublicName>JSON\JSON_STRING</PublicName>
                 <PublicName>JSON\JSON_BOOL</PublicName>
+                <PublicName>JSON\JSON_LOGIC</PublicName>
                 <PublicName>JSON\JSON_DATE</PublicName>
-                <PublicName>JSON\JSON_formatLREAL</PublicName>
+                <PublicName>JSON\JSON_REAL</PublicName>
+                <PublicName>JSON\JSON_LREAL</PublicName>
                 <PublicName>JSON\JSON_formatREAL</PublicName>
-                <PublicName>JSON\JSONBuild</PublicName>
+                <PublicName>JSON\JSON_formatLREAL</PublicName>
                 <PublicName>JSON\JSONObj</PublicName>
                 <PublicName>JSON\JSONCloseObj</PublicName>
-                <PublicName>JSON\JSONCloseList</PublicName>
-                <PublicName>JSON\JSONAdd</PublicName>
                 <PublicName>JSON\JSONList</PublicName>
-                <PublicName>JSON\JSONBuildArr</PublicName>
+                <PublicName>JSON\JSONAdd</PublicName>
+                <PublicName>JSON\JSONCloseList</PublicName>
+                <PublicName>JSON\JSONArr</PublicName>
+                <PublicName>JSON\JSONCloseArr</PublicName>
+                <PublicName>JSON\JSONBuild</PublicName>
+                <PublicName>JSON\JSONBuildAsArray</PublicName>
+                <PublicName>JSON\JSONGetStatus</PublicName>
                 <PublicName>JSON\JSONBuffer</PublicName>
               </PublicPartsNames>
               <InternalPartsNames>
                 <InternalName>JSON\InsertVariable</InternalName>
                 <InternalName>JSON\FindReplace</InternalName>
+                <InternalName>JSON\JSON_WORD</InternalName>
+                <InternalName>JSON\JSON_DWORD</InternalName>
+                <InternalName>JSON\JSON_LWORD</InternalName>
                 <InternalName>JSON\JSONEncoder</InternalName>
-                <InternalName>JSON\JSONArr</InternalName>
               </InternalPartsNames>
               <BuildDevice>
                 <Category>Controller</Category>
                 <Family>Nex</Family>
-                <FullModel>NX1P2-1140DT1</FullModel>
+                <FullModel>NJ501-1500</FullModel>
                 <MajorVersion>1</MajorVersion>
                 <MinorVersion>18</MinorVersion>
                 <Revision>0</Revision>
                 <DisplayVersion>1.18</DisplayVersion>
                 <Packages>
                   <Package Name="Motion" Version="1.18" />
+                  <Package Name="OPCUA" Version="1.18" />
                 </Packages>
               </BuildDevice>
               <DependencyId>8173faf6-9ba0-46aa-adad-c9097bc8c63f</DependencyId>
               <IsSource>true</IsSource>
               <IsDisableSourceDisplay>true</IsDisableSourceDisplay>
               <IsIncludeReferredLibraries>false</IsIncludeReferredLibraries>
-              <LibraryFilePath>C:\Documents\Documentation et logiciels\DIVERS\MQTT et RESTful API\MQTT\MQTT Client library for Sysmac\JSON v0.56.slr</LibraryFilePath>
+              <LibraryFilePath>C:\OMRON\Data\Lib\JSON Encoding and Decoding Library\JSONEncoding.slr</LibraryFilePath>
               <LibraryFileRelativePath></LibraryFileRelativePath>
-              <LibrarySourceControlRelativeFilePath></LibrarySourceControlRelativeFilePath>
+              <LibrarySourceControlRelativeFilePath>..\..\..\Lib\JSON Encoding and Decoding Library\JSONEncoding.slr</LibrarySourceControlRelativeFilePath>
+              <AsOldVer>false</AsOldVer>
+              <SchemaVersion>3</SchemaVersion>
+              <Parameter1>false</Parameter1>
+            </LibraryModel>
+          </data>
+        </ReferredLibrary>
+        <ReferredLibrary>
+          <data>
+            <LibraryModel>
+              <Name>JSONDecoding</Name>
+              <NameSpace></NameSpace>
+              <Version>0.0.9</Version>
+              <Revision>1</Revision>
+              <LibraryId>9a5251ca-c225-4913-ab48-70d4c239730d</LibraryId>
+              <Author>gomsan</Author>
+              <Company>OMRON ATCE</Company>
+              <DateCreated>2018-12-17T11:35:05.1933466+01:00</DateCreated>
+              <DateModified>2020-06-05T14:21:28.1784679+02:00</DateModified>
+              <Comment>release 0.0.9</Comment>
+              <Password></Password>
+              <AttachedFiles />
+              <AttachedFilesRelativePaths />
+              <PublicPartsNames>
+                <PublicName>JSON\JSONtoSTRUCT</PublicName>
+                <PublicName>JSON\JSONGet</PublicName>
+                <PublicName>JSON\JSONGetBOOL</PublicName>
+                <PublicName>JSON\JSONGetSINT</PublicName>
+                <PublicName>JSON\JSONGetUSINT</PublicName>
+                <PublicName>JSON\JSONGetINT</PublicName>
+                <PublicName>JSON\JSONGetUINT</PublicName>
+                <PublicName>JSON\JSONGetDINT</PublicName>
+                <PublicName>JSON\JSONGetUDINT</PublicName>
+                <PublicName>JSON\JSONGetLINT</PublicName>
+                <PublicName>JSON\JSONGetULINT</PublicName>
+                <PublicName>JSON\JSONGetREAL</PublicName>
+                <PublicName>JSON\JSONGetLREAL</PublicName>
+                <PublicName>JSON\JSONGetTsToDT</PublicName>
+                <PublicName>JSON\JSONGetBYTE</PublicName>
+                <PublicName>JSON\JSONGetWORD</PublicName>
+                <PublicName>JSON\JSONGetDWORD</PublicName>
+                <PublicName>JSON\JSONGetLWORD</PublicName>
+              </PublicPartsNames>
+              <InternalPartsNames>
+                <InternalName>JSON\PrivateParts\FindReplace</InternalName>
+                <InternalName>JSON\PrivateParts\GetIndex</InternalName>
+                <InternalName>JSON\PrivateParts\TrimIndex</InternalName>
+                <InternalName>JSON\PrivateParts\FindFields</InternalName>
+                <InternalName>JSON\JSONGetSTRING</InternalName>
+                <InternalName>JSON\BK_JSONGet_B</InternalName>
+                <InternalName>JSON\JSONGet_OLD</InternalName>
+                <InternalName>JSON\bk_JSONGet</InternalName>
+                <InternalName>JSON\PrivateParts\bk_FindFields</InternalName>
+                <InternalName>JSON\PrivateParts\JSONpath</InternalName>
+              </InternalPartsNames>
+              <BuildDevice>
+                <Category>Controller</Category>
+                <Family>Nex</Family>
+                <FullModel>NJ101-9000</FullModel>
+                <MajorVersion>1</MajorVersion>
+                <MinorVersion>19</MinorVersion>
+                <Revision>0</Revision>
+                <DisplayVersion>1.19</DisplayVersion>
+                <Packages />
+              </BuildDevice>
+              <DependencyId>2d7bec72-f2bf-4f5f-b055-3d63e6d6dc4e</DependencyId>
+              <IsSource>true</IsSource>
+              <IsDisableSourceDisplay>true</IsDisableSourceDisplay>
+              <IsIncludeReferredLibraries>true</IsIncludeReferredLibraries>
+              <LibraryFilePath>C:\OMRON\Data\Lib\JSON Encoding and Decoding Library\JSONDecoding.slr</LibraryFilePath>
+              <LibraryFileRelativePath></LibraryFileRelativePath>
+              <LibrarySourceControlRelativeFilePath>..\..\..\Lib\JSON Encoding and Decoding Library\JSONDecoding.slr</LibrarySourceControlRelativeFilePath>
               <AsOldVer>false</AsOldVer>
               <SchemaVersion>3</SchemaVersion>
               <Parameter1>false</Parameter1>
