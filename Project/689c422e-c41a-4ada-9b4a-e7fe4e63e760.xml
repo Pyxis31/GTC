@@ -101,6 +101,12 @@ _EN=Variables
 ++D=INT	N=RTC_done	G=VAR
 ++D=MyJSON\JSON_button_decoding	N=FB_buttons	G=VAR
 ++D=ARRAY[0..9] OF BOOL	N=ButtonsStates	G=VAR
+++D=TP	N=ServerStartingPulse	G=VAR
+++D=BOOL	N=ServerIsRunning	G=VAR
+++D=BOOL	N=StartServerClock	G=VAR
+++D=BOOL	N=StopServerClock	G=VAR
+++D=BOOL	N=ManualStartServer	G=VAR
+++D=RS	N=FB_LockRange	G=VAR
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
 ++D=DATE_AND_TIME	N=_CurrentTime	Const=1	G=VAR_EXTERNAL
 ++D=ARRAY[0..49] OF WORD	N=W	G=VAR_EXTERNAL
