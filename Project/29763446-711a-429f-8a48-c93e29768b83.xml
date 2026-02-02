@@ -1,0 +1,26 @@
+<StructuredTextModel xmlns="http://schemas.datacontract.org/2004/07/Omron.Cxap.Modules.StructuredText.Core" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><Text>IF Message&lt;&gt;'' THEN&#xD;
+	Error:=FALSE;&#xD;
+	setPos:=FIND(Message,'set');&#xD;
+	targetPos:=FIND(Message,'target');&#xD;
+	IF setPos=0 OR targetPos=0 THEN&#xD;
+		Error:=TRUE;&#xD;
+		ClearString(Message);&#xD;
+	ELSE&#xD;
+		setValue:=MID(Message,4,setPos+5);&#xD;
+		targetValue:=MID(Message,1,targetPos+9);&#xD;
+		ClearString(Message);&#xD;
+		index:=DWORD_TO_INT(StringToFixNum(targetValue))/1000;&#xD;
+		IF ButtonsType=Toggle THEN&#xD;
+			IF setValue='true' THEN&#xD;
+				ButtonsStates[index]:= NOT ButtonsStates[index];&#xD;
+			END_IF;&#xD;
+		ELSIF ButtonsType=SetReset THEN&#xD;
+			IF setValue='true' THEN&#xD;
+				ButtonsStates[index]:=TRUE;&#xD;
+			ELSIF setValue='fals' THEN&#xD;
+				ButtonsStates[index]:=FALSE;&#xD;
+			END_IF;&#xD;
+		END_IF;&#xD;
+	END_IF;&#xD;
+END_IF;&#xD;
+</Text></StructuredTextModel>

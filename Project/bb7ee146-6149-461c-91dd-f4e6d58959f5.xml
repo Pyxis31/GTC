@@ -1,0 +1,15 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=STRING[5]	N=setValue	G=VAR	Com=Set value string +1
+++D=STRING[2]	N=targetValue	G=VAR	Com=Target value string +1
+++D=INT	N=index	G=VAR
+++D=UINT	N=setPos	G=VAR
+++D=UINT	N=targetPos	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=STRING[256]	N=Message	Ord=0	G=VAR_IN_OUT
+++D=BOOL	N=Enable	Ord=1	G=VAR_INPUT
+++D=MyJSON\eTypeOfButton	N=ButtonsType	Ord=2	G=VAR_INPUT
+++D=BOOL	N=Error	Ord=3	G=VAR_OUTPUT
+++D=ARRAY[0..15] OF BOOL	N=ButtonsStates	Ord=4	G=VAR_OUTPUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
