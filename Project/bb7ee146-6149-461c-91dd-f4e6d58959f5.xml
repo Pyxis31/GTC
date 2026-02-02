@@ -11,5 +11,5 @@ _EN=Variables
 ++D=BOOL	N=Enable	Ord=1	G=VAR_INPUT
 ++D=MyJSON\eTypeOfButton	N=ButtonsType	Ord=2	G=VAR_INPUT
 ++D=BOOL	N=Error	Ord=3	G=VAR_OUTPUT
-++D=ARRAY[0..15] OF BOOL	N=ButtonsStates	Ord=4	G=VAR_OUTPUT
+++D=ARRAY[0..15] OF BOOL	N=ButtonsStates	Ord=4	G=VAR_IN_OUT
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
