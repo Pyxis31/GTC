@@ -102,7 +102,7 @@ _EN=Variables
 ++D=MyJSON\JSON_button_decoding	N=FB_buttons	G=VAR
 ++D=ARRAY[0..9] OF BOOL	N=ButtonsStates	G=VAR
 ++D=TP	N=ServerStartingPulse	G=VAR
-++D=BOOL	N=ServerIsRunning	G=VAR
+++D=BOOL	N=ServerIsRunning	R=1	G=VAR
 ++D=BOOL	N=StartServerClock	G=VAR
 ++D=BOOL	N=StopServerClock	G=VAR
 ++D=BOOL	N=ManualStartServer	G=VAR
