@@ -107,20 +107,20 @@ _EN=Variables
 ++D=BOOL	N=StopServerClock	G=VAR
 ++D=BOOL	N=ManualStartServer	G=VAR
 ++D=RS	N=FB_LockRange	G=VAR
-++D=BOOL	N=TCP_Busy	Ord=1	G=VAR	AOE=1
-++D=BOOL	N=TCP_Error	Ord=2	G=VAR	AOE=1
-++D=WORD	N=TCP_ErrorID	Ord=3	G=VAR	AOE=1
-++D=_sSOCKET	N=TCP_Socket	Ord=4	G=VAR	AOE=1
-++D=SktTCPConnect	N=FB_TCPconnect	Ord=5	G=VAR	AOE=1
-++D=BOOL	N=TCP_Check	Ord=6	G=VAR	AOE=1
-++D=BOOL	N=TruenasIsRunning	Ord=7	G=VAR	AOE=1
-++D=SktClose	N=FB_TCPclose	Ord=8	G=VAR	AOE=1
-++D=BOOL	N=TCPclose_Busy	Ord=9	G=VAR	AOE=1
-++D=BOOL	N=TCPclose_Error	Ord=10	G=VAR	AOE=1
-++D=WORD	N=TCPclose_ErrorID	Ord=11	G=VAR	AOE=1
-++D=BOOL	N=TCPconnect_Busy	Ord=12	G=VAR	AOE=1
-++D=BOOL	N=TCPconnect_Error	Ord=13	G=VAR	AOE=1
-++D=WORD	N=TCPconnect_ErrorID	Ord=14	G=VAR	AOE=1
+++D=BOOL	N=TCP_Busy	G=VAR
+++D=BOOL	N=TCP_Error	G=VAR
+++D=WORD	N=TCP_ErrorID	G=VAR
+++D=_sSOCKET	N=TCP_Socket	G=VAR
+++D=SktTCPConnect	N=FB_TCPconnect	G=VAR
+++D=BOOL	N=TCP_Check	G=VAR
+++D=BOOL	N=TruenasIsRunning	G=VAR
+++D=SktClose	N=FB_TCPclose	G=VAR
+++D=BOOL	N=TCPclose_Busy	G=VAR
+++D=BOOL	N=TCPclose_Error	G=VAR
+++D=WORD	N=TCPclose_ErrorID	G=VAR
+++D=BOOL	N=TCPconnect_Busy	G=VAR
+++D=BOOL	N=TCPconnect_Error	G=VAR
+++D=WORD	N=TCPconnect_ErrorID	G=VAR
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
 ++D=DATE_AND_TIME	N=_CurrentTime	Const=1	G=VAR_EXTERNAL
 ++D=ARRAY[0..49] OF WORD	N=W	G=VAR_EXTERNAL
