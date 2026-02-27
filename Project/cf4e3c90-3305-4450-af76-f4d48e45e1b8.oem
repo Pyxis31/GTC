@@ -486,7 +486,7 @@
                 <AccessInfos />
                 <ChildEntities />
               </Entity>
-              <Entity type="Variables" subtype="Global" id="6e71eb77-4fbe-447a-a728-7d157c414627" name="Global Variables" version="0" dateCreated="09/18/2025 19:49:42" dateLastModified="02/04/2026 11:26:10" trackingId="ff72bc6b-2e0d-422c-819e-b0df73b99263" DN="Global Variables" hash="235cd605da87eef542272735643c9680">
+              <Entity type="Variables" subtype="Global" id="6e71eb77-4fbe-447a-a728-7d157c414627" name="Global Variables" version="0" dateCreated="09/18/2025 19:49:42" dateLastModified="02/27/2026 12:03:59" trackingId="ff72bc6b-2e0d-422c-819e-b0df73b99263" DN="Global Variables" hash="a305309a569115d5bd888a7d1f801a9f">
                 <AccessInfos />
                 <ChildEntities>
                   <Entity type="SourceHolder" subtype="" id="a2dfe53b-cbbf-43ea-a2f1-d6490b501459" name="Source" version="0" dateCreated="09/18/2025 19:49:42" trackingId="05e64761-a41e-479c-a276-4bb7ddb8d2db">
