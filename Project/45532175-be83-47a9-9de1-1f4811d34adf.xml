@@ -1,0 +1,12 @@
+<StructuredTextModel xmlns="http://schemas.datacontract.org/2004/07/Omron.Cxap.Modules.StructuredText.Core" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><Text>IF Message&lt;&gt;'' THEN&#xD;
+	Error:=FALSE;&#xD;
+	IF MID(Message,4,FIND(Message,'contact')+9)='true' THEN&#xD;
+		SensorState:=TRUE;&#xD;
+	ELSIF MID(Message,4,FIND(Message,'contact')+9)='fals' THEN&#xD;
+		SensorState:=FALSE;&#xD;
+	ELSE&#xD;
+		Error:=TRUE;&#xD;
+	END_IF;&#xD;
+	Clear(Message);&#xD;
+END_IF;&#xD;
+</Text></StructuredTextModel>
