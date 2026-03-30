@@ -3941,7 +3941,7 @@
       <Options />
     </NexCpuEipNTPSpecifiedTime>
     <NexCpuEipNTPSpecifiedInterval>
-      <CurrentValue>60</CurrentValue>
+      <CurrentValue>5</CurrentValue>
       <IsEnabled>false</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>60</DefaultValue>
