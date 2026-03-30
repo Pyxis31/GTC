@@ -32,3 +32,10 @@ _EN=Variables
 ++D=INT	N=InternalTempTREND24h	G=VAR_GLOBAL
 ++D=INT	N=ExternalTempTREND24h	G=VAR_GLOBAL
 ++D=BOOL	N=AlertMemory	G=VAR_GLOBAL
+++D=UINT	N=SimuLineSpeed	NTP=PublicationOnly	G=VAR_GLOBAL
+++D=REAL	N=SimuTemperature	NTP=PublicationOnly	G=VAR_GLOBAL
+++D=BOOL	N=SimuAlarm	NTP=PublicationOnly	G=VAR_GLOBAL
+++D=UINT	N=SimuPressure	NTP=PublicationOnly	G=VAR_GLOBAL
+++D=LINT	N=SimuProduction	NTP=PublicationOnly	G=VAR_GLOBAL
+++D=UINT	N=SimuVoltage	NTP=PublicationOnly	G=VAR_GLOBAL
+++D=LREAL	N=SimuOEE	NTP=PublicationOnly	G=VAR_GLOBAL
