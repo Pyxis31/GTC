@@ -39,3 +39,5 @@ _EN=Variables
 ++D=LINT	N=SimuProduction	NTP=PublicationOnly	G=VAR_GLOBAL
 ++D=UINT	N=SimuVoltage	NTP=PublicationOnly	G=VAR_GLOBAL
 ++D=LREAL	N=SimuOEE	NTP=PublicationOnly	G=VAR_GLOBAL
+++D=BOOL	N=CapFenBureau	G=VAR_GLOBAL
+++D=BOOL	N=CapFenChambre	G=VAR_GLOBAL
