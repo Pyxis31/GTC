@@ -41,3 +41,5 @@ _EN=Variables
 ++D=LREAL	N=SimuOEE	NTP=PublicationOnly	G=VAR_GLOBAL
 ++D=BOOL	N=CapFenBureau	G=VAR_GLOBAL
 ++D=BOOL	N=CapFenChambre	G=VAR_GLOBAL
+++D=BOOL	N=CapFenChambreAmis	G=VAR_GLOBAL
+++D=BOOL	N=CapPorteFen	G=VAR_GLOBAL
