@@ -134,6 +134,7 @@ _EN=Variables
 ++D=MQTT\MQTTSubscribe	N=FB_MQTTSub_CapFenChambre	G=VAR
 ++D=STRING[1986]	N=Message_CapFenChambre	G=VAR
 ++D=STRING[128]	N=RcvTopic_CapFenChambre	G=VAR
+++D=MyJSON\JSON_sensor_decoding	N=FB_RoomSensor	Ord=1	G=VAR	AOE=1
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
 ++D=DATE_AND_TIME	N=_CurrentTime	Const=1	G=VAR_EXTERNAL
 ++D=ARRAY[0..49] OF WORD	N=W	G=VAR_EXTERNAL
