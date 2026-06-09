@@ -1,0 +1,26 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=UINT	N=Byte_Qty	G=VAR
+++D=SktTCPSend	N=TCP_Send_Inst	G=VAR
+++D=SktClearBuf	N=TCP_ClearBuf_Inst	G=VAR
+++D=SktTCPRcv	N=TCP_Recv_Inst	G=VAR
+++D=INT	N=TCP_Step	G=VAR
+++D=BOOL	N=Sending	G=VAR
+++D=ARRAY[0..255] OF BYTE	N=Send_Data	G=VAR
+++D=ARRAY[0..255] OF BYTE	N=Recv_Data	G=VAR
+++D=TON	N=Check_StepTime	G=VAR
+++D=ARRAY[0..245] OF BYTE	N=CoilTOByte	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=Enable	Ord=0	G=VAR_INPUT
+++D=_sSOCKET	N=TCP_Socket	Ord=1	G=VAR_INPUT
+++D=BYTE	N=Unit_ID	IV=255	Ord=2	G=VAR_INPUT
+++D=WORD	N=Coil_Address	Ord=3	G=VAR_INPUT
+++D=UINT	N=Coil_Qty	Ord=4	G=VAR_INPUT
+++D=ARRAY[0..1967] OF BOOL	N=Coil_Values	Ord=5	G=VAR_INPUT
+++D=BOOL	N=Send_Request	Ord=6	G=VAR_INPUT
+++D=BOOL	N=Cmd_Ok	Ord=7	G=VAR_OUTPUT
+++D=BOOL	N=Error	Ord=8	G=VAR_OUTPUT
+++D=WORD	N=ErrorID	Ord=9	G=VAR_OUTPUT
+++D=UINT	N=Transaction_ID	Ord=10	G=VAR_IN_OUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

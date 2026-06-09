@@ -259,6 +259,63 @@
             </LibraryModel>
           </data>
         </ReferredLibrary>
+        <ReferredLibrary>
+          <data>
+            <LibraryModel>
+              <Name>MTCP_Client_NJ</Name>
+              <NameSpace></NameSpace>
+              <Version>3.0.</Version>
+              <Revision>1</Revision>
+              <LibraryId>cf0b0e36-8677-481c-885f-849985cea533</LibraryId>
+              <Author>JPV</Author>
+              <Company>Omron France</Company>
+              <DateCreated>2012-09-10T15:19:49.8103044+02:00</DateCreated>
+              <DateModified>2024-06-06T12:24:53.9482327+02:00</DateModified>
+              <Comment>NJNX: Librairie MTCP Client</Comment>
+              <Password></Password>
+              <AttachedFiles />
+              <AttachedFilesRelativePaths />
+              <PublicPartsNames>
+                <PublicName>MTCP_Client_Connect</PublicName>
+                <PublicName>MTCP_Client_Fn01</PublicName>
+                <PublicName>MTCP_Client_Fn02</PublicName>
+                <PublicName>MTCP_Client_Fn03</PublicName>
+                <PublicName>MTCP_Client_Fn04</PublicName>
+                <PublicName>MTCP_Client_Fn05</PublicName>
+                <PublicName>MTCP_Client_Fn06</PublicName>
+                <PublicName>MTCP_Client_Fn10</PublicName>
+                <PublicName>MTCP_Client_Fn0F</PublicName>
+                <PublicName>MTCP_Client_Fn17</PublicName>
+                <PublicName>uModbusReg</PublicName>
+              </PublicPartsNames>
+              <InternalPartsNames />
+              <BuildDevice>
+                <Category>Controller</Category>
+                <Family>Nex</Family>
+                <FullModel>NJ501-1320</FullModel>
+                <MajorVersion>1</MajorVersion>
+                <MinorVersion>19</MinorVersion>
+                <Revision>0</Revision>
+                <DisplayVersion>1.19</DisplayVersion>
+                <Packages>
+                  <Package Name="DBCon" Version="1.2" />
+                  <Package Name="Motion" Version="1.19" />
+                </Packages>
+              </BuildDevice>
+              <DependencyId>7e5241e1-9de2-4269-b9b8-8f9030939ee8</DependencyId>
+              <IsSource>true</IsSource>
+              <IsDisableSourceDisplay>false</IsDisableSourceDisplay>
+              <IsIncludeReferredLibraries>true</IsIncludeReferredLibraries>
+              <LibraryFilePath>C:\Documents\Documentation et logiciels\DIVERS\NJ, NX7, NX1P, NX102, NX502\Sysmac Libraries\Modbus TCP\MTCP_Client_NJ - Version 3.0\MTCP_Client_NJ.slr</LibraryFilePath>
+              <LibraryFileRelativePath></LibraryFileRelativePath>
+              <LibrarySourceControlRelativeFilePath>..\..\..\..\..\Documents\Documentation et logiciels\DIVERS\NJ, NX7, NX1P, NX102, NX502\Sysmac Libraries\Modbus TCP\MTCP_Client_NJ - Version 3.0\MTCP_Client_NJ.slr</LibrarySourceControlRelativeFilePath>
+              <AsOldVer>false</AsOldVer>
+              <SchemaVersion>2</SchemaVersion>
+              <Parameter1>false</Parameter1>
+              <ApplicationProductVersion>1.57.0.64008</ApplicationProductVersion>
+            </LibraryModel>
+          </data>
+        </ReferredLibrary>
       </ReferredLibraries>
       <BuildOption>
         <data>

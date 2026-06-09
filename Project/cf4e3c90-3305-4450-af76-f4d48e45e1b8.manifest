@@ -5,6 +5,7 @@
     <ApplicationFeatures>
       <ApplicationFeature name="V102Project" />
       <ApplicationFeature name="SetUnit NX1P2-9024DT1 Ver. 1.69" />
+      <ApplicationFeature name="SetFunc Library Ver. 1.0" />
       <ApplicationFeature name="NexLibraryInternalUsed" />
       <ApplicationFeature name="TransferInfoAndBuildResultsEntitiesReduced" />
     </ApplicationFeatures>

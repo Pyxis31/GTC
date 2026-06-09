@@ -1,0 +1,57 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=BOOL	N=Error_Connect	G=VAR
+++D=WORD	N=Err_Code_Client	G=VAR
+++D=BOOL	N=Err_Fn10	G=VAR
+++D=BOOL	N=WriteCoil_Ok	G=VAR
+++D=WORD	N=ErrID_Fn10	G=VAR
+++D=BOOL	N=Err_Fn03	G=VAR
+++D=WORD	N=ErrID_Fn03	G=VAR
+++D=_eCONNECTION_STATE	N=Status_Client	G=VAR
+++D=ARRAY[0..1023] OF BOOL	N=ModbusClient_Coils	G=VAR
+++D=BOOL	N=Cmd_ReadReg	G=VAR
+++D=BOOL	N=Cmd_WriteRegs	G=VAR
+++D=BOOL	N=Cmd_WriteCoil	G=VAR
+++D=BOOL	N=Connected	G=VAR
+++D=WORD	N=Address	G=VAR
+++D=UINT	N=Qty	G=VAR
+++D=_sSOCKET	N=Socket_Client	G=VAR
+++D=ARRAY[0..1023] OF WORD	N=Reg	G=VAR
+++D=MTCP_Client_Connect	N=Client_Connect	G=VAR
+++D=MTCP_Client_Fn03	N=Client_read	G=VAR
+++D=MTCP_Client_Fn10	N=Client_Write	G=VAR
+++D=MTCP_Client_Fn05	N=Client_WriteCoil	G=VAR
+++D=BOOL	N=CoilValue	G=VAR
+++D=BOOL	N=Err_Fn05	G=VAR
+++D=WORD	N=ErrID_Fn05	G=VAR
+++D=MTCP_Client_Fn06	N=Client_Write1Reg	G=VAR
+++D=BOOL	N=Cmd_Write1Reg	G=VAR
+++D=BOOL	N=Err_Fn06	G=VAR
+++D=WORD	N=ErrID_Fn06	G=VAR
+++D=BOOL	N=WriteRegs_Ok	G=VAR
+++D=BOOL	N=Read_Ok	G=VAR
+++D=BOOL	N=Write1Reg_Ok	G=VAR
+++D=BOOL	N=Start_Client	G=VAR
+++D=BYTE	N=Unit_Identifier	G=VAR
+++D=MTCP_Client_Fn01	N=Client_ReadCoils	G=VAR
+++D=BOOL	N=Cmd_ReadCoil	G=VAR
+++D=BOOL	N=ReadCoilsOk	G=VAR
+++D=BOOL	N=Err_Fn01	G=VAR
+++D=WORD	N=ErrID_Fn01	G=VAR
+++D=MTCP_Client_Fn17	N=Client_ReadWrite	G=VAR
+++D=BOOL	N=Cmd_ReadWriteRegs	G=VAR
+++D=BOOL	N=Err_Fn17	G=VAR
+++D=WORD	N=ErrID_Fn17	G=VAR
+++D=ARRAY[0..1023] OF WORD	N=RegValues	IV=[16#0, 16#0001, 16#0002, 16#0003, 16#0004, 16#0005, 1018(16#0)]	G=VAR
+++D=BOOL	N=ReadWriteRegs_Ok	G=VAR
+++D=BOOL	N=EtnConnexionProblem	G=VAR
+++D=MTCP_Client_Fn0F	N=Client_WriteCoils	G=VAR
+++D=BOOL	N=WriteCoils_Ok	G=VAR
+++D=ARRAY[0..1967] OF BOOL	N=CoilValues	G=VAR
+++D=BOOL	N=Cmd_WriteCoils	G=VAR
+++D=WORD	N=CoilAddress	G=VAR
+++D=BOOL	N=Err_Fn0F	G=VAR
+++D=WORD	N=ErrID_Fn0F	G=VAR
+++D=UINT	N=Trans_ID	G=VAR
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
