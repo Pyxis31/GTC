@@ -3893,7 +3893,7 @@
       <Options />
     </NexCpuEipNTPPortSettingValue2>
     <NexCpuEipNTPServerSpecify>
-      <CurrentValue>EnumElement2</CurrentValue>
+      <CurrentValue>EnumElement1</CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>EnumElement1</DefaultValue>
@@ -3903,15 +3903,15 @@
       </Options>
     </NexCpuEipNTPServerSpecify>
     <NexCpuEipNTPIPAddress>
-      <CurrentValue></CurrentValue>
-      <IsEnabled>false</IsEnabled>
+      <CurrentValue>192.168.1.33</CurrentValue>
+      <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </NexCpuEipNTPIPAddress>
     <NexCpuEipNTPHostName>
-      <CurrentValue>fr.pool.ntp.org</CurrentValue>
-      <IsEnabled>true</IsEnabled>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>false</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
@@ -3941,7 +3941,7 @@
       <Options />
     </NexCpuEipNTPSpecifiedTime>
     <NexCpuEipNTPSpecifiedInterval>
-      <CurrentValue>5</CurrentValue>
+      <CurrentValue>1</CurrentValue>
       <IsEnabled>false</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>60</DefaultValue>
