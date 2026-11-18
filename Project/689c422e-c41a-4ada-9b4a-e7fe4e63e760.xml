@@ -143,9 +143,7 @@ _EN=Variables
 ++D=STRING[1986]	N=Message_CapPorteFen	G=VAR
 ++D=STRING[128]	N=RcvTopic_CapPorteFen	G=VAR
 ++D=MyJSON\JSON_sensor_decoding	N=FB_DoorWinSensor	G=VAR
-++D=MTCP_Client_Connect	N=FB_MTCP_Client_Connect	G=VAR
 ++D=BOOL	N=MTCP_Connect	G=VAR
-++D=MTCP_Client_Fn10	N=FB_MTCP_Client_Fn10	G=VAR
 ++D=BOOL	N=Fn10_Error	G=VAR
 ++D=WORD	N=Fn10_ErrorID	G=VAR
 ++D=UINT	N=Transaction_ID	G=VAR
@@ -157,12 +155,19 @@ _EN=Variables
 ++D=BYTE	N=Unit_ID	G=VAR
 ++D=ARRAY[0..1023] OF WORD	N=RegistersData	G=VAR
 ++D=BOOL	N=Cmd_WriteRegisters	G=VAR
-++D=MTCP_Client_Fn05	N=FB_MTCP_Client_Fn05	G=VAR
 ++D=BOOL	N=SetValue	G=VAR
 ++D=BOOL	N=Cmd_WriteCoil	G=VAR
 ++D=BOOL	N=Fn05_Error	G=VAR
 ++D=WORD	N=Fn05_ErrorID	G=VAR
 ++D=BOOL	N=ForceNTP	G=VAR
+++D=MTCP_Client_Connect	N=FB_Client_Connect	G=VAR
+++D=MTCP_Client_FnD0	N=FB_Client_FnD0	G=VAR
+++D=UINT	N=Consigne_rpm	IV=2000	G=VAR
+++D=BOOL	N=Send_Write_Request	G=VAR
+++D=BOOL	N=FnD0_Error	G=VAR
+++D=WORD	N=FnD0_ErrorID	G=VAR
+++D=MTCP_Client_FnC3	N=FB_Client_FnC3	G=VAR
+++D=BOOL	N=Send_Read_Request	G=VAR
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
 ++D=DATE_AND_TIME	N=_CurrentTime	Const=1	G=VAR_EXTERNAL
 ++D=ARRAY[0..49] OF WORD	N=W	G=VAR_EXTERNAL
