@@ -1,0 +1,14 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=BOOL	N=clk	G=VAR
+++D=BOOL	N=clkmin	G=VAR
+++D=RAND	N=dataRnd	G=VAR
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
+++D=UINT	N=SimuLineSpeed	G=VAR_EXTERNAL
+++D=REAL	N=SimuTemperature	G=VAR_EXTERNAL
+++D=UINT	N=SimuPressure	G=VAR_EXTERNAL
+++D=LINT	N=SimuProduction	G=VAR_EXTERNAL
+++D=UINT	N=SimuVoltage	G=VAR_EXTERNAL
+++D=LREAL	N=SimuOEE	G=VAR_EXTERNAL
+++D=BOOL	N=SimuAlarm	G=VAR_EXTERNAL

@@ -10,12 +10,6 @@ _EN=Variables
 ++D=ARRAY[0..15] OF BOOL	N=H_bit	AT=%H0	R=1	G=VAR_GLOBAL
 ++D=ARRAY[0..49] OF WORD	N=W	AT=%W0	G=VAR_GLOBAL
 ++D=ARRAY[0..15] OF BOOL	N=W_bit	AT=%W0	G=VAR_GLOBAL
-++D=REAL	N=Temp_sensor1	G=VAR_GLOBAL
-++D=REAL	N=Hum_sensor1	G=VAR_GLOBAL
-++D=REAL	N=Press_sensor1	G=VAR_GLOBAL
-++D=REAL	N=Volt_sensor1	G=VAR_GLOBAL
-++D=REAL	N=Batt_sensor1	G=VAR_GLOBAL
-++D=REAL	N=LinkQ_sensor1	G=VAR_GLOBAL
 ++D=INT	N=ADB_ch1	AT=BuiltInIO://opt/#0/Ch1_Analog_Input_Value	G=VAR_GLOBAL
 ++D=INT	N=ADB_ch2	AT=BuiltInIO://opt/#0/Ch2_Analog_Input_Value	G=VAR_GLOBAL
 ++D=REAL	N=InternalTempMIN	G=VAR_GLOBAL

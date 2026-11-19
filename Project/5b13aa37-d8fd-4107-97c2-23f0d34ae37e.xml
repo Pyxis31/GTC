@@ -1,0 +1,26 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=BOOL	N=MTCP_Connect	G=VAR
+++D=BOOL	N=Client_Connect_Error	G=VAR
+++D=WORD	N=Client_Connect_ErrorID	G=VAR
+++D=BOOL	N=Client_Connect_EtnConnError	G=VAR
+++D=_sSOCKET	N=Client_Connect_TCP_Socket	G=VAR
+++D=_eCONNECTION_STATE	N=Client_Connect_Socket_Status	G=VAR
+++D=MTCP_Client_Connect	N=FB_Client_Connect	G=VAR
+++D=BOOL	N=Send_Write_Request	G=VAR
+++D=UINT	N=Transaction_ID	G=VAR
+++D=BOOL	N=FnD0_Error	G=VAR
+++D=WORD	N=FnD0_ErrorID	G=VAR
+++D=MTCP_Client_FnD0	N=FB_Client_FnD0	G=VAR
+++D=BOOL	N=Send_Read_Request	G=VAR
+++D=MTCP_Client_FnC3	N=FB_Client_FnC3	G=VAR
+++D=UINT	N=Consigne_rpm	IV=2000	G=VAR
+++D=TON	N=ReconnectionDelay	G=VAR
+++D=TON	N=WaitDelay	G=VAR
+++D=BOOL	N=InitConnection	G=VAR
+++D=BOOL	N=Reconnect	G=VAR
+++D=UDINT	N=ReconnectCounter	G=VAR
+++D=INT	N=State	G=VAR
+++D=BOOL	N=Wait	G=VAR
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

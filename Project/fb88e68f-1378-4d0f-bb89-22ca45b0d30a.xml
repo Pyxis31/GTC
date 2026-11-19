@@ -6,7 +6,6 @@ _EN=Variables
 ++D=INT	N=index1	G=VAR
 ++D=UINT	N=index2	G=VAR
 ++D=UINT	N=Minute	G=VAR
-++D=REAL	N=Mémoire	G=VAR
 ++D=ARRAY[0..96] OF REAL	N=Pile	G=VAR
 ++D=UINT	N=Resolution	G=VAR
 ++D=REAL	N=MémTempérature	G=VAR

@@ -8,7 +8,9 @@
     </ExecutionConditionCJUnit>
   </GeneralSettingsData>
   <Programs>
-    <AssociatedProgramData ProgramName="Gestion" InstanceName="Gestion" IniFileTrackingId="80c388e376f1463da9cacc1ee3c22da9" StartupSetting="TRUE" SequenceNumber="1" IsDebugProgram="false" />
+    <AssociatedProgramData ProgramName="Principal" InstanceName="Principal" IniFileTrackingId="80c388e376f1463da9cacc1ee3c22da9" StartupSetting="TRUE" SequenceNumber="1" IsDebugProgram="false" />
+    <AssociatedProgramData ProgramName="Variateur" InstanceName="Variateur" IniFileTrackingId="258f9155cf1146a2be994e6bddd47ea9" StartupSetting="TRUE" SequenceNumber="2" IsDebugProgram="false" />
+    <AssociatedProgramData ProgramName="DX1" InstanceName="DX1" IniFileTrackingId="df820d68069140c387b9e6ec7b44734c" StartupSetting="TRUE" SequenceNumber="3" IsDebugProgram="false" />
   </Programs>
   <RefreshUnitIds>
     <RefreshUnitId RefreshUnitId="167ea067-73d8-409c-ac1d-79e97f8f9ca5" />
