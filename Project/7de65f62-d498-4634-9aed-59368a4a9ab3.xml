@@ -15,11 +15,10 @@ _EN=Variables
 ++D=_sSOCKET	N=TCP_Socket	Ord=1	G=VAR_INPUT
 ++D=BYTE	N=Unit_ID	IV=255	Ord=2	G=VAR_INPUT
 ++D=WORD	N=Register_Address	Ord=3	G=VAR_INPUT
-++D=UINT	N=Register_Qty	Ord=4	G=VAR_INPUT
-++D=BOOL	N=Send_Request	Ord=5	G=VAR_INPUT
-++D=BOOL	N=Cmd_Ok	Ord=6	G=VAR_OUTPUT
-++D=BOOL	N=Error	Ord=7	G=VAR_OUTPUT
-++D=WORD	N=ErrorID	Ord=8	G=VAR_OUTPUT
-++D=ARRAY[0..1023] OF WORD	N=Register	Ord=9	G=VAR_OUTPUT
-++D=UINT	N=Transaction_ID	Ord=10	G=VAR_IN_OUT
+++D=BOOL	N=Send_Request	Ord=4	G=VAR_INPUT
+++D=BOOL	N=Cmd_Ok	Ord=5	G=VAR_OUTPUT
+++D=BOOL	N=Error	Ord=6	G=VAR_OUTPUT
+++D=WORD	N=ErrorID	Ord=7	G=VAR_OUTPUT
+++D=ARRAY[0..1023] OF WORD	N=Register	Ord=8	G=VAR_OUTPUT
+++D=UINT	N=Transaction_ID	Ord=9	G=VAR_IN_OUT
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
