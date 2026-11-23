@@ -15,15 +15,24 @@ _EN=Variables
 ++D=MTCP_Client_FnD0	N=FB_Client_FnD0	G=VAR
 ++D=BOOL	N=Send_Read_Request	G=VAR
 ++D=MTCP_Client_FnC3	N=FB_Client_FnC3	G=VAR
-++D=UINT	N=Consigne_rpm	IV=2000	G=VAR
 ++D=TON	N=ReconnectionDelay	G=VAR
 ++D=TON	N=WaitDelay	G=VAR
+++D=TON	N=ReadWriteDelay	G=VAR
 ++D=BOOL	N=InitConnection	G=VAR
 ++D=BOOL	N=Reconnect	G=VAR
 ++D=UDINT	N=ReconnectCounter	G=VAR
 ++D=INT	N=State	G=VAR
 ++D=BOOL	N=Wait	G=VAR
-++D=BOOL	N=FnC3_Error	Ord=1	G=VAR	AOE=1
-++D=WORD	N=FnC3_ErrorID	Ord=2	G=VAR	AOE=1
-++D=ARRAY[0..1023] OF WORD	N=FnC3_Register	Ord=3	G=VAR	AOE=1
+++D=BOOL	N=FnC3_Error	G=VAR
+++D=WORD	N=FnC3_ErrorID	G=VAR
+++D=ARRAY[0..1023] OF WORD	N=FnC3_Register	G=VAR
+++D=BOOL	N=ReadWrite	G=VAR
+++D=INT	N=StateComm	G=VAR
+++D=UDINT	N=RespErrCounter	G=VAR
+++D=BOOL	N=test	G=VAR
+++D=BOOL	N=Pompe_Auto	G=VAR
+++D=BOOL	N=Pompe_ON	G=VAR
+++D=UINT	N=Actual_rpm	G=VAR
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
+++D=UINT	N=ConsigneManu_rpm	G=VAR_EXTERNAL
+++D=UINT	N=ConsigneAuto_rpm	G=VAR_EXTERNAL

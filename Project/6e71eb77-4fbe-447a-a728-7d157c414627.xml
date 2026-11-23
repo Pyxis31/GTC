@@ -37,3 +37,5 @@ _EN=Variables
 ++D=BOOL	N=CapFenChambre	G=VAR_GLOBAL
 ++D=BOOL	N=CapFenChambreAmis	G=VAR_GLOBAL
 ++D=BOOL	N=CapPorteFen	G=VAR_GLOBAL
+++D=UINT	N=ConsigneManu_rpm	IV=2000	G=VAR_GLOBAL
+++D=UINT	N=ConsigneAuto_rpm	IV=2000	G=VAR_GLOBAL
