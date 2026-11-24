@@ -33,6 +33,7 @@ _EN=Variables
 ++D=BOOL	N=Pompe_Auto	G=VAR
 ++D=BOOL	N=Pompe_ON	G=VAR
 ++D=UINT	N=Actual_rpm	G=VAR
+++D=INT	N=i	G=VAR
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
 ++D=UINT	N=ConsigneManu_rpm	G=VAR_EXTERNAL
 ++D=UINT	N=ConsigneAuto_rpm	G=VAR_EXTERNAL
