@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <DataTraceEnvironmentalModel>
+    <CursorPosition>1723.1248926902354</CursorPosition>
+    <StartTime>2026-11-27T14:06:03.042</StartTime>
+    <IsInAbsoluteTimeMode>false</IsInAbsoluteTimeMode>
+    <SeriesAxisSettings>
+      <SeriesAxis>
+        <SeriesId>57e1ec5b-1798-47f8-ae8f-20a1891e9626</SeriesId>
+        <AxisMin>0</AxisMin>
+        <AxisMax>0</AxisMax>
+      </SeriesAxis>
+    </SeriesAxisSettings>
+  </DataTraceEnvironmentalModel>
+</data>

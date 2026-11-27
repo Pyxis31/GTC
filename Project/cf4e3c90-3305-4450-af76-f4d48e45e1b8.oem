@@ -31,7 +31,7 @@
         <AccessInfos />
         <ChildEntities />
       </Entity>
-      <Entity type="Device" subtype="NJ501" id="4fa87172-caf5-4786-9608-23f144d93b15" name="CPU" version="0" dateCreated="09/18/2025 19:49:42" dateLastModified="11/03/2025 17:28:05" trackingId="c675391b-5dac-4a68-81e1-e34336d84cdf" hash="d2b2175bcb64633e942c23e83a8c74c2" DHS="a6f7a75aec7534f298bc6901a6c1ff45" TH="216e05bb3ef0ec6a75f54bfc2c607cbf">
+      <Entity type="Device" subtype="NJ501" id="4fa87172-caf5-4786-9608-23f144d93b15" name="CPU" version="0" dateCreated="09/18/2025 19:49:42" dateLastModified="11/03/2025 17:28:05" trackingId="c675391b-5dac-4a68-81e1-e34336d84cdf" hash="d2b2175bcb64633e942c23e83a8c74c2" DHS="50fd7c80b51629be6a01a5b7943c90d0" TH="a270629c96e3d6fef778315deb10f4ab">
         <AccessInfos />
         <ChildEntities>
           <Entity type="Watch" subtype="" id="555e6e04-9476-420c-be5c-dc2b6f2910c5" name="Watch" version="0" dateCreated="09/18/2025 19:49:42" trackingId="e7733163-8aae-48c4-ac5a-2f4860c8d606">
@@ -181,9 +181,48 @@
             <AccessInfos />
             <ChildEntities />
           </Entity>
-          <Entity type="DataTraces" subtype="Nex" id="141d6779-8dce-4239-b20b-723edd76d0ef" name="Data Trace Settings" version="0" dateCreated="09/18/2025 19:49:42" dateLastModified="09/18/2025 19:49:43" trackingId="dad721da-b3a6-4246-a27b-ce45e813c382" DN="Data Trace Settings">
+          <Entity type="DataTraces" subtype="Nex" id="141d6779-8dce-4239-b20b-723edd76d0ef" name="Data Trace Settings" version="0" dateCreated="09/18/2025 19:49:42" dateLastModified="11/27/2026 15:25:43" trackingId="dad721da-b3a6-4246-a27b-ce45e813c382" DN="Data Trace Settings">
             <AccessInfos />
-            <ChildEntities />
+            <ChildEntities>
+              <Entity type="DataTrace" subtype="Nex" id="5d7d1d49-0100-4bd1-ace0-01d8c6068633" name="DataTrace0" version="0" dateCreated="11/27/2026 14:04:26" dateLastModified="11/27/2026 15:25:43" trackingId="b43b5486-035f-4448-afc3-eab2a905e1ef" DN="DataTrace0">
+                <AccessInfos />
+                <ChildEntities>
+                  <Entity type="DataTraceConfig" subtype="Nex" id="3474dfaf-0a46-4c52-8b81-b43562e7d5c5" name="Config" version="0" dateCreated="11/27/2026 14:04:26" dateLastModified="11/27/2026 15:25:43" trackingId="26ccc48a-5627-4f19-bfaf-425f692cc4b4" hash="0b44c307219594482d097cd2f27e878f">
+                    <AccessInfos />
+                    <ChildEntities>
+                      <Entity type="NexDataTraceConfig" subtype="" id="b6e499e8-2dbe-4981-9592-1d603b1864f7" name="Config" version="0" dateCreated="11/27/2026 14:04:27" dateLastModified="11/27/2026 15:25:43" trackingId="cd5b5bc5-327a-4066-89ae-aee864287586" hash="12269af0631738556352d910cd86bbfc">
+                        <AccessInfos />
+                        <ChildEntities />
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
+                  <Entity type="DataTraceSet" subtype="" id="81e8ba3c-57a0-40c1-ac3c-b5e819c8904d" name="DataTraceSet" version="0" dateCreated="11/27/2026 14:04:27" dateLastModified="11/27/2026 15:25:43" trackingId="daa4fa23-de5b-492e-9183-7607a1237b06" hash="ba4f2972f0d678fd0be29534d02133b9">
+                    <AccessInfos />
+                    <ChildEntities />
+                  </Entity>
+                  <Entity type="DataTraceResults" subtype="Internal" id="66693ce4-fb8f-4f9e-aa25-2816c9ed886f" name="DataTraceResults" version="0" dateCreated="11/27/2026 14:04:27" trackingId="3bb5fcf6-1374-4ad1-b01e-55d10a60def2">
+                    <AccessInfos />
+                    <ChildEntities />
+                  </Entity>
+                  <Entity type="DataTraceResults" subtype="External" id="16b02008-9768-4e27-a66c-0c6e72851e15" name="ExternalDataTraceResults" version="0" dateCreated="11/27/2026 14:04:27" trackingId="61c42e03-4d65-4770-bf55-40ef590a4377">
+                    <AccessInfos />
+                    <ChildEntities />
+                  </Entity>
+                  <Entity type="DataTraceEnvironment" subtype="" id="16fdfca3-02e9-4bff-8bbd-89da89b2dff2" name="DataTraceEnvironment" version="0" dateCreated="11/27/2026 14:04:27" dateLastModified="11/27/2026 15:25:43" trackingId="f27d2d34-9e5c-4167-b045-ac875f805be7" hash="5527ab5feb37c9acb704fc40dd24605f">
+                    <AccessInfos />
+                    <ChildEntities />
+                  </Entity>
+                  <Entity type="NexDataTraceVisionData" subtype="" id="2d8a57ff-df14-4bed-bf57-75d4cb1a9c54" name="NexDataTraceVisionData" version="0" dateCreated="11/27/2026 14:04:27" trackingId="74d4c34c-af71-46f5-b041-b454fa520e5b">
+                    <AccessInfos />
+                    <ChildEntities />
+                  </Entity>
+                  <Entity type="MotionMonitorSetting" subtype="" id="db25f76b-7b53-427d-8415-b25443b519f9" name="NexDataTraceVisionData" version="0" dateCreated="11/27/2026 14:04:27" dateLastModified="11/27/2026 14:04:27" trackingId="03f4b50d-8885-43a4-af40-9e6280a725f2">
+                    <AccessInfos />
+                    <ChildEntities />
+                  </Entity>
+                </ChildEntities>
+              </Entity>
+            </ChildEntities>
           </Entity>
           <Entity type="Group" subtype="IecPous" id="ccb2d40f-e802-4eec-882a-2e27135ac30a" name="POUs" version="0" dateCreated="09/18/2025 19:49:42" trackingId="ed45368e-a91a-4299-9c66-fe8298ceb9e4" DN="POUs">
             <AccessInfos />
@@ -335,7 +374,7 @@
                         <AccessInfos />
                         <ChildEntities />
                       </Entity>
-                      <Entity type="Variables" subtype="Ladder" id="5b13aa37-d8fd-4107-97c2-23f0d34ae37e" name="Variables" version="0" dateCreated="11/19/2026 17:36:54" dateLastModified="11/24/2026 09:54:04" trackingId="1982730a-fceb-4e60-a481-834c3722d78b" hash="79bbf2f3745d23cabfaae7679370cd4b">
+                      <Entity type="Variables" subtype="Ladder" id="5b13aa37-d8fd-4107-97c2-23f0d34ae37e" name="Variables" version="0" dateCreated="11/19/2026 17:36:54" dateLastModified="11/27/2026 17:07:09" trackingId="1982730a-fceb-4e60-a481-834c3722d78b" hash="f576bc2d07df4fd84d74878f3855970d">
                         <AccessInfos />
                         <ChildEntities>
                           <Entity type="SourceHolder" subtype="" id="cf2d86fc-47d8-4904-ab57-6b3115b4f939" name="Source" version="0" dateCreated="11/19/2026 17:36:54" trackingId="2439ae35-cd6d-4d08-8587-826aff5dba17">
@@ -361,7 +400,7 @@
                           </Entity>
                         </ChildEntities>
                       </Entity>
-                      <Entity type="PouBody" subtype="Ladder" id="f24faf29-62aa-4924-b7ec-8a2431ed8c74" name="Communication" version="0" dateCreated="11/23/2026 14:31:30" dateLastModified="11/24/2026 09:55:44" trackingId="064fb01d-2ad9-4960-9b4c-72eb38fc9db5" DN="Communication" hash="8e9d42cc53f32de712281c1adc59a84a">
+                      <Entity type="PouBody" subtype="Ladder" id="f24faf29-62aa-4924-b7ec-8a2431ed8c74" name="Communication" version="0" dateCreated="11/23/2026 14:31:30" dateLastModified="11/27/2026 17:07:09" trackingId="064fb01d-2ad9-4960-9b4c-72eb38fc9db5" DN="Communication" hash="8ce1e1ab64bee5f463c14561fc7160af">
                         <AccessInfos />
                         <ChildEntities>
                           <Entity type="SourceHolder" subtype="" id="acaffef2-15dd-4a74-9c11-ef11818865a0" name="Source" version="0" dateCreated="11/23/2026 14:31:30" trackingId="4f1dfa9d-2b9b-4e96-8405-9d65190e7434">
@@ -372,7 +411,7 @@
                             <AccessInfos />
                             <ChildEntities />
                           </Entity>
-                          <Entity type="Inline" subtype="StructuredText" id="db551e1b-f000-4893-85e6-4800897e8c3f" name="0e7ca285-fd8b-4bc1-83fe-e009792b96d6" version="0" dateCreated="11/23/2026 14:32:26" dateLastModified="11/24/2026 09:55:44" trackingId="0e7ca285-fd8b-4bc1-83fe-e009792b96d6">
+                          <Entity type="Inline" subtype="StructuredText" id="db551e1b-f000-4893-85e6-4800897e8c3f" name="0e7ca285-fd8b-4bc1-83fe-e009792b96d6" version="0" dateCreated="11/23/2026 14:32:26" dateLastModified="11/27/2026 17:07:09" trackingId="0e7ca285-fd8b-4bc1-83fe-e009792b96d6">
                             <AccessInfos />
                             <ChildEntities />
                           </Entity>
@@ -615,7 +654,7 @@
                       </Entity>
                     </ChildEntities>
                   </Entity>
-                  <Entity type="FunctionBlock" subtype="StructuredText" id="d8974be4-37e3-4140-b85e-f495cc83e335" name="MTCP_Client_FnC3" version="0" dateCreated="11/18/2026 12:00:46" dateLastModified="11/19/2026 10:34:40" author="simfra" trackingId="ab54348e-dcb6-4652-a11c-c0a427f02bdd" DN="MTCP_Client_FnC3">
+                  <Entity type="FunctionBlock" subtype="StructuredText" id="d8974be4-37e3-4140-b85e-f495cc83e335" name="MTCP_Client_FnC3" version="0" dateCreated="11/18/2026 12:00:46" dateLastModified="11/27/2026 16:15:21" author="simfra" trackingId="ab54348e-dcb6-4652-a11c-c0a427f02bdd" DN="MTCP_Client_FnC3">
                     <AccessInfos />
                     <ChildEntities>
                       <Entity type="Variables" subtype="StructuredTextFunctionBlock" id="7de65f62-d498-4634-9aed-59368a4a9ab3" name="Variables" version="0" dateCreated="11/18/2026 12:00:46" dateLastModified="11/19/2026 10:26:06" trackingId="70e2f951-1cc5-4c6f-9ef1-662d11e4421a" hash="75393efb3fbbc21da40edf4ed4c6b4db">
@@ -631,7 +670,7 @@
                           </Entity>
                         </ChildEntities>
                       </Entity>
-                      <Entity type="PouBody" subtype="StructuredText" id="faf6089b-532f-43a2-b5ea-d7dd4a44678f" name="Program Body" version="0.2" dateCreated="11/18/2026 12:00:46" dateLastModified="11/19/2026 10:34:40" trackingId="fe8a21d7-aee2-4d1d-99b9-6eae8517e86b" hash="f7f377ed84646dc808de9ed6b945a676">
+                      <Entity type="PouBody" subtype="StructuredText" id="faf6089b-532f-43a2-b5ea-d7dd4a44678f" name="Program Body" version="0.2" dateCreated="11/18/2026 12:00:46" dateLastModified="11/27/2026 16:15:21" trackingId="fe8a21d7-aee2-4d1d-99b9-6eae8517e86b" hash="749cb5b0c868c77390b727022fb7d552">
                         <AccessInfos />
                         <ChildEntities>
                           <Entity type="SourceHolder" subtype="" id="38573385-aa4e-4e4c-a6a7-e30818e72a7b" name="Source" version="0" dateCreated="11/18/2026 12:00:46" trackingId="01e09310-f794-4650-bddb-f93b44617fbe">
@@ -693,7 +732,7 @@
                   </Entity>
                 </ChildEntities>
               </Entity>
-              <Entity type="Variables" subtype="Global" id="6e71eb77-4fbe-447a-a728-7d157c414627" name="Global Variables" version="0" dateCreated="09/18/2025 19:49:42" dateLastModified="11/23/2026 17:44:51" trackingId="ff72bc6b-2e0d-422c-819e-b0df73b99263" DN="Global Variables" hash="05ea224c2782064f1ca7c925cb11a027">
+              <Entity type="Variables" subtype="Global" id="6e71eb77-4fbe-447a-a728-7d157c414627" name="Global Variables" version="0" dateCreated="09/18/2025 19:49:42" dateLastModified="11/27/2026 17:07:09" trackingId="ff72bc6b-2e0d-422c-819e-b0df73b99263" DN="Global Variables" hash="b27d3e7dab1dab0a9498a602e8936f53">
                 <AccessInfos />
                 <ChildEntities>
                   <Entity type="SourceHolder" subtype="" id="a2dfe53b-cbbf-43ea-a2f1-d6490b501459" name="Source" version="0" dateCreated="09/18/2025 19:49:42" trackingId="05e64761-a41e-479c-a276-4bb7ddb8d2db">

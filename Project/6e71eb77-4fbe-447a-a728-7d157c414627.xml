@@ -39,3 +39,5 @@ _EN=Variables
 ++D=BOOL	N=CapPorteFen	G=VAR_GLOBAL
 ++D=UINT	N=ConsigneManu_rpm	IV=2000	G=VAR_GLOBAL
 ++D=UINT	N=ConsigneAuto_rpm	IV=2000	G=VAR_GLOBAL
+++D=BOOL	N=Pompe_ON	G=VAR_GLOBAL
+++D=BOOL	N=Pompe_MANU	R=1	G=VAR_GLOBAL

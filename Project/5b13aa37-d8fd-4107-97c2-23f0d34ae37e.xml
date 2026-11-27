@@ -17,7 +17,6 @@ _EN=Variables
 ++D=MTCP_Client_FnC3	N=FB_Client_FnC3	G=VAR
 ++D=TON	N=ReconnectionDelay	G=VAR
 ++D=TON	N=WaitDelay	G=VAR
-++D=TON	N=ReadWriteDelay	G=VAR
 ++D=BOOL	N=InitConnection	G=VAR
 ++D=BOOL	N=Reconnect	G=VAR
 ++D=UDINT	N=ReconnectCounter	G=VAR
@@ -26,14 +25,15 @@ _EN=Variables
 ++D=BOOL	N=FnC3_Error	G=VAR
 ++D=WORD	N=FnC3_ErrorID	G=VAR
 ++D=ARRAY[0..1023] OF WORD	N=FnC3_Register	G=VAR
-++D=BOOL	N=ReadWrite	G=VAR
 ++D=INT	N=StateComm	G=VAR
 ++D=UDINT	N=RespErrCounter	G=VAR
 ++D=BOOL	N=test	G=VAR
-++D=BOOL	N=Pompe_Auto	G=VAR
-++D=BOOL	N=Pompe_ON	G=VAR
-++D=UINT	N=Actual_rpm	G=VAR
-++D=INT	N=i	G=VAR
+++D=BOOL	N=DataReceived	G=VAR
+++D=UINT	N=InvErrorCode	G=VAR
+++D=USINT	N=InvOperation	G=VAR
+++D=UINT	N=InvRunningSpeed	G=VAR
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
 ++D=UINT	N=ConsigneManu_rpm	G=VAR_EXTERNAL
 ++D=UINT	N=ConsigneAuto_rpm	G=VAR_EXTERNAL
+++D=BOOL	N=Pompe_ON	G=VAR_EXTERNAL
+++D=BOOL	N=Pompe_MANU	G=VAR_EXTERNAL

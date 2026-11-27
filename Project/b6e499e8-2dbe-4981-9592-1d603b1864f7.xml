@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <NexDataTraceConfigModel>
+    <TaskName>BaseControl</TaskName>
+    <TraceId>0</TraceId>
+    <SampleTimingType>cyclic</SampleTimingType>
+    <SamplingInterval>1</SamplingInterval>
+    <SamplingTime>1</SamplingTime>
+    <PostTriggerDataRatio>90</PostTriggerDataRatio>
+    <StartOnRun>False</StartOnRun>
+    <EnableRealTimeDisplay>False</EnableRealTimeDisplay>
+    <BehaviorWhenMax>Stop</BehaviorWhenMax>
+    <NumSamplingRecords>10000</NumSamplingRecords>
+    <NexDataTraceTriggerModel>
+      <Enabled>true</Enabled>
+      <SymbolId>entity://nextask.base.69f01a62-e6b8-4a2e-918e-9cb2784eb00e/Variateur/Send_Read_Request%3ABOOL</SymbolId>
+      <SymbolName>Variateur.Send_Read_Request</SymbolName>
+      <Condition>BooleanRising</Condition>
+      <Value></Value>
+    </NexDataTraceTriggerModel>
+  </NexDataTraceConfigModel>
+</data>
